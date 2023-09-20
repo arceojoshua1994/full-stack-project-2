@@ -15,3 +15,19 @@ app.use(express.json());
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
+
+// This code renders the "homepage.handlebars" template when a user accesses the root path
+
+app.get('/', (req, res) => {
+    res.render('home');
+  });
+
+// Serves the "public" folder using Express
+
+  app.use(express.static('public'));
+
+  
+
+
+
+  
