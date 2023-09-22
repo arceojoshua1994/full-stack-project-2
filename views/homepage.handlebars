@@ -1,12 +1,69 @@
-<!-- views/home.handlebars -->
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <title>Recipeasy</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{pageTitle}} - Recipeasy</title>
+    <link rel="stylesheet" href="/public/css/style.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
 </head>
+
 <body>
-    <h1>Welcome to the Recipeasy!</h1>
-    {{!-- Add more HTML content here --}}
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <a class="logo" href="/">Recipeasy</a>
+            <ul class="nav-links">
+                <li><a href="/recipes">Recipes</a></li>
+                <li><a href="/categories">Categories</a></li>
+                <li><a href="/about">About Us</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Featured Recipes Section -->
+    <section class="featured-recipes">
+        <div class="container">
+            <h2>Featured Recipes</h2>
+            <div class="recipe-cards">
+                {{#each featuredRecipes}}
+                    <div class="recipe-card">
+                        <img src="{{imageUrl}}" alt="{{title}}">
+                        <h3>{{title}}</h3>
+                        <p>{{description}}</p>
+                        <a href="/recipes/{{id}}" class="btn">View Recipe</a>
+                    </div>
+                {{/each}}
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Categories Section -->
+    <section class="popular-categories">
+        <div class="container">
+            <h2>Popular Categories</h2>
+            <div class="category-cards">
+                {{#each popularCategories}}
+                    <div class="category-card">
+                        <img src="{{imageUrl}}" alt="{{name}}">
+                        <h3>{{name}}</h3>
+                        <a href="/categories/{{id}}" class="btn">Explore {{name}}</a>
+                    </div>
+                {{/each}}
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Recipeasy. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script> 
 </body>
+
 </html>
