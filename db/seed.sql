@@ -1,4 +1,4 @@
-INSERT INTO recipes (title,categories,cooking_time,ingredients,directions,servings)
+INSERT INTO recipe (title,categories,cooking_time,ingredients,directions,servings)
 VALUES 
 /* -------------AMERICAN --------------*/
 ("Blueberry Pie","american","20min","Pastry for double-crust pie (9 inches)
