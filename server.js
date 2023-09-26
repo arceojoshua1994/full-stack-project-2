@@ -1,18 +1,22 @@
 const express = require('express');
-const exphbs = require('express-handlebars');
+var exphbs = require('express-handlebars');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
 
+const hbs = exphbs.create();
+
 // Configure Handlebars as the template engine
-app.engine('handlebars', exphbs());
+app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');
 
 // Middleware to parse JSON requests
 app.use(express.json());
 
 // Include routes
-const mainRoutes = require('./routes/subdirectory/mainRoutes'); // Adjust the path as needed
+const mainRoutes = require('./routes/subdirectory/mainRoutes'); 
+
+// Adjust the path as needed
 
 // Define routes
 app.get('/', (req, res) => {
