@@ -23,12 +23,11 @@
         </div>
     </nav>
 
-    <!-- Content specific to the index page -->
+    <!-- Featured Recipes Section -->
     <section class="featured-recipes">
         <div class="container">
             <h2>Featured Recipes</h2>
             <div class="recipe-cards">
-                <!-- Populate with featured recipes data -->
                 {{#each featuredRecipes}}
                     <div class="recipe-card">
                         <img src="{{imageUrl}}" alt="{{title}}">
@@ -41,7 +40,21 @@
         </div>
     </section>
 
-    <!-- Content specific to the index page ends here -->
+    <!-- Popular Categories Section -->
+    <section class="popular-categories">
+        <div class="container">
+            <h2>Popular Categories</h2>
+            <div class="category-cards">
+                {{#each popularCategories}}
+                    <div class="category-card">
+                        <img src="{{imageUrl}}" alt="{{name}}">
+                        <h3>{{name}}</h3>
+                        <a href="/categories/{{id}}" class="btn">Explore {{name}}</a>
+                    </div>
+                {{/each}}
+            </div>
+        </div>
+    </section>
 
     <!-- Footer -->
     <footer>
