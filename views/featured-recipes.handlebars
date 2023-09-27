@@ -1,0 +1,16 @@
+ <!-- Featured Recipes Section -->
+    <section class="featured-recipes">
+        <div class="container">
+            <h2>Featured Recipes</h2>
+            <div class="recipe-cards">
+                {{#each featuredRecipes}}
+                    <div class="recipe-card">
+                        <img src="{{imageUrl}}" alt="{{title}}">
+                        <h3>{{title}}</h3>
+                        <p>{{description}}</p>
+                        <a href="/recipes/{{id}}" class="btn">View Recipe</a>
+                    </div>
+                {{/each}}
+            </div>
+        </div>
+    </section>
