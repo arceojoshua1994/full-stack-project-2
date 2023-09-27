@@ -2,6 +2,7 @@ const path = require('path');
 const express = require('express');
 const exphbs = require('express-handlebars');
 const routes = require('./controllers');
+//var db = require('./controllers/db').db;
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -45,5 +46,4 @@ sequelize.sync({ force: false }).then(() => {
 // app.listen(PORT, () => {
 //     console.log(`Server is running on port ${PORT}`);
 // });
-
 
