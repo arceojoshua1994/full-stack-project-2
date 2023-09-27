@@ -5,7 +5,6 @@ module.exports = function(sequelize, DataTypes) {
       categories: DataTypes.STRING,
       cooking_time: DataTypes.STRING,
       ingredients: DataTypes.STRING,
-      directions: DataTypes.STRING,
       servings: DataTypes.INTEGER,
       createdAt: {
         type: DataTypes.DATE,
