@@ -1,33 +1,49 @@
+const path = require('path');
 const express = require('express');
 const exphbs = require('express-handlebars');
+const routes = require('./controllers');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-// Configure Handlebars as the template engine
-app.engine('handlebars', exphbs());
+const hbs = exphbs.create();
+
+// Set up Handlebars custom helpers
+
+// const sess = {
+//   secret: 'Super secret secret',
+//   cookie: {
+//     maxAge: 300000,
+//     httpOnly: true,
+//     secure: false,
+//     sameSite: 'strict',
+//   },
+//   resave: false,
+//   saveUninitialized: true,
+//   store: new SequelizeStore({
+//     db: sequelize
+//   })
+// };
+
+// app.use(session(sess));
+
+// Inform Express.js on which template engine to use
+app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');
 
-// Middleware to parse JSON requests
 app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+app.use(express.static(path.join(__dirname, 'public')));
 
-// Start the server
-app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
+app.use(routes);
+
+sequelize.sync({ force: false }).then(() => {
+  app.listen(PORT, () => console.log('Now listening'));
 });
 
-// This code renders the "homepage.handlebars" template when a user accesses the root path
-
-app.get('/', (req, res) => {
-    res.render('home');
-  });
-
-// Serves the "public" folder using Express
-
-  app.use(express.static('public'));
-
-  
+// Start the server
+// app.listen(PORT, () => {
+//     console.log(`Server is running on port ${PORT}`);
+// });
 
 
-
-  

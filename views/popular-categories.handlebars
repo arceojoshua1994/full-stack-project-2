@@ -1,0 +1,15 @@
+  <!-- Popular Categories Webpage -->
+    <section class="popular-categories">
+        <div class="container">
+            <h2>Popular Categories</h2>
+            <div class="category-cards">
+                {{#each popularCategories}}
+                    <div class="category-card">
+                        <img src="{{imageUrl}}" alt="{{name}}">
+                        <h3>{{name}}</h3>
+                        <a href="/categories/{{id}}" class="btn">Explore {{name}}</a>
+                    </div>
+                {{/each}}
+            </div>
+        </div>
+    </section>
