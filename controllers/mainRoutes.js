@@ -15,7 +15,7 @@ router.get('/', (req, res) => {
       ]
     };
   
-    res.render('welcome', data);
+    res.render('homepage', data);
   });
 
 //http://localhost:3000/featured-recipes/
