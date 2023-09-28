@@ -49,7 +49,7 @@ module.exports = function(app) {
       console.log('req.params.category: ', req.params.category);
       console.log('dbRecipe: ', dbRecipe);
       res.json(dbRecipe);
-    }); // include: [db.Author]
+    });
    
   });
 
