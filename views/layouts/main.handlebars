@@ -24,11 +24,11 @@
         <nav class="navbar" role="navigation" aria-label="main navigation">
           <div class="navbar-menu">
             <div class="navbar-end">
-              <a class="navbar-item" href="#">Home</a>
-              <a class="navbar-item" href="#">Recipes</a>
-              <a class="navbar-item" href="#">Categories</a>
-              <a class="navbar-item" href="#">About Us</a>
-              <a class="navbar-item" href="#">Contact</a>
+              <a class="navbar-item has-text-primary" href="/homepage">Home</a>
+              <a class="navbar-item has-text-primary" href="/featured-recipes">Recipes</a>
+              <a class="navbar-item has-text-primary" href="/popular-categories">Categories</a>
+              <a class="navbar-item has-text-primary" href="/about">About Us</a>
+              <a class="navbar-item has-text-primary" href="/profile">Your Profile</a>
             </div>
           </div>
         </nav>
@@ -38,53 +38,67 @@
 </header>
 
 
-    <section class="section">
-        <div class="container has-text-centered">
-            <p>
-                Welcome to Recipeasy, your go-to platform for discovering and sharing delicious recipes from around the
-                world! Whether you're a seasoned chef or just starting out in the kitchen, Recipeasy is here to make your
-                cooking experience easy, fun, and full of flavor. Log in below to turn your kitchen into a five-star restaurant!
-            </p>
+  <section class="section">
+  <div class="container">
+    <div class="columns is-vcentered">
+      <div class="column is-half has-text-centered">
+        <div class="welcome-content">
+          <h2 class="title is-3 has-text-primary mb-10">Welcome to Recipeasy!</h2>
+          <p class="subtitle is-5">
+            Your go-to platform for discovering and sharing delicious recipes from around the world! Whether you're a seasoned chef or just starting out in the kitchen, Recipeasy is here to make your cooking experience easy, fun, and full of flavor.
+          </p>
+          <p class="subtitle is-5">
+            Log in to turn your kitchen into a five-star restaurant!
+          </p>
+          <a href="/" class="button is-primary is-medium">Learn More</a>
         </div>
-    </section>
+      </div>
    
 
-    <section class="section">
-  <div class="container">
-    <div class="columns is-centered">
-      <div class="column is-half">
-        <h2 class="title is-2 has-text-centered">Login</h2>
-        <form>
-          <div class="field">
-            <label class="label">Email</label>
-            <div class="control">
-              <input class="input" type="email" placeholder="Email">
+        <div class="column is-half">
+          <h2 class="title is-3 has-text-centered mb-4 has-text-primary">Login</h2>
+          <form>
+            <div class="field is-horizontal">
+              <div class="field-label is-normal">
+                <label class="label">Email</label>
+              </div>
+              <div class="field-body">
+                <div class="field">
+                  <p class="control is-expanded">
+                    <input class="input" type="email" placeholder="Email">
+                  </p>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="field">
-            <label class="label">Password</label>
-            <div class="control">
-              <input class="input" type="password" placeholder="Password">
+            <div class="field is-horizontal">
+              <div class="field-label is-normal">
+                <label class="label">Password</label>
+              </div>
+              <div class="field-body">
+                <div class="field">
+                  <p class="control is-expanded">
+                    <input class="input" type="password" placeholder="Password">
+                  </p>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="field">
-            <div class="control has-text-centered">
-              <button class="button is-primary">Login</button>
+            <div class="field">
+              <div class="control has-text-centered">
+                <button class="button is-primary">Login</button>
+              </div>
             </div>
-          </div>
-        </form>
-        <p class="has-text-centered">
-          Don't have an account? <a href="#" class="has-text-primary">Sign up</a>
-        </p>
+          </form>
+          <p class="has-text-centered mt-4">
+            Don't have an account? <a href="#" class="has-text-primary">Sign up</a>
+          </p>
+        </div>
       </div>
     </div>
-  </div>
-</section>
-
+  </section>
 
 <section class="section">
-  <div class="container">
-    <h2 class="title has-text-centered">Popular Categories</h2>
+  <div class="container has-text-centered">
+    <h2 class="title has-text-centered has-text-primary">Trending Categories</h2>
     <div class="columns is-multiline">
     
       <div class="column is-4">
@@ -96,7 +110,7 @@
           </div>
           <div class="card-content">
             <div class="content">
-              <h3 class="title is-4">Latin</h3>
+              <h3 class="title is-4 has-text-centered">Latin</h3>
             </div>
           </div>
         </div>
@@ -112,7 +126,7 @@
           </div>
           <div class="card-content">
             <div class="content">
-              <h3 class="title is-4">Asian</h3>
+              <h3 class="title is-4 has-text-centered">Asian</h3>
             </div>
           </div>
         </div>
@@ -127,7 +141,7 @@
           </div>
           <div class="card-content">
             <div class="content">
-              <h3 class="title is-4">Caribbean</h3>
+              <h3 class="title is-4 has-text-centered">Caribbean</h3>
             </div>
           </div>
         </div>
@@ -141,7 +155,7 @@
 
 <section class="section">
   <div class="container">
-    <h2 class="title">Featured Recipes</h2>
+    <h2 class="title has-text-centered has-text-primary">Featured Recipes</h2>
     <div class="columns is-multiline">
       
       <div class="column is-4">
@@ -152,7 +166,7 @@
             </figure>
           </div>
           <div class="card-content">
-            <div class="content">
+            <div class="content has-text-centered">
               <h3 class="title is-4">Carne Asada</h3>
               <p>Description: Tender and flavorful grilled steak, marinated in a zesty blend of citrus and spices. Perfect for tacos, burritos, or as a main dish with rice and beans.</p>
             </div>
@@ -169,7 +183,7 @@
             </figure>
           </div>
           <div class="card-content">
-            <div class="content">
+            <div class="content has-text-centered">
               <h3 class="title is-4">Shrimp Pad Thai</h3>
               <p>Description: A classic Thai dish featuring succulent shrimp, stir-fried with rice noodles, crunchy peanuts, and fresh herbs in a tangy tamarind sauce. A harmonious blend of sweet, sour, and savory flavors.</p>
             </div>
@@ -185,7 +199,7 @@
               <img src="/images/oxtail.jpeg" alt="Oxtail Stew">
             </figure>
           </div>
-          <div class="card-content">
+          <div class="card-content has-text-centered">
             <div class="content">
               <h3 class="title is-4">Oxtail Stew</h3>
               <p>Description: Hearty and comforting, this stew features oxtail simmered to tender perfection with aromatic vegetables, herbs, and a rich broth. Served over a bed of rice, it is a soul-warming delight.</p>
@@ -203,7 +217,7 @@
             </figure>
           </div>
           <div class="card-content">
-            <div class="content">
+            <div class="content has-text-centered">
               <h3 class="title is-4">Beef Souvlaki</h3>
               <p>Description: A Greek favorite, Beef Souvlaki consists of marinated and skewered beef, grilled to juicy perfection. Served with pita bread, tzatziki sauce, and a medley of fresh veggies.</p>
             </div>
@@ -220,7 +234,7 @@
             </figure>
           </div>
           <div class="card-content">
-            <div class="content">
+            <div class="content has-text-centered">
               <h3 class="title is-4">Lemon Pepper Chicken Wings</h3>
               <p>Description: Crispy chicken wings, seasoned with zesty lemon and aromatic black pepper, then baked to golden perfection. These wings are a crowd-pleaser, perfect for game day or any gathering.</p>
             </div>
@@ -237,7 +251,7 @@
             </figure>
           </div>
           <div class="card-content">
-            <div class="content">
+            <div class="content has-text-centered">
               <h3 class="title is-4">Grilled Salmon with Dill Sauce</h3>
               <p>Description: Succulent salmon fillets, seasoned and grilled to perfection, topped with a creamy dill sauce. This dish is a seafood lover's dream come true!</p>
             </div>
@@ -252,7 +266,7 @@
 
 <section class="section">
   <div class="container">
-    <h2 class="title">Popular Chefs</h2>
+    <h2 class="title has-text-centered has-text-primary">Popular Chefs</h2>
 <div class="columns is-multiline">
 
   <div class="column is-4">
@@ -263,7 +277,7 @@
         </figure>
       </div>
       <div class="card-content">
-        <div class="content">
+        <div class="content has-text-centered">
           <h3 class="title is-4">Salt Bae</h3>
           <p>Followers: 100k</p>
           <p>Recipes: 53</p>
@@ -282,7 +296,7 @@
         </figure>
       </div>
       <div class="card-content">
-        <div class="content">
+        <div class="content has-text-centered">
           <h3 class="title is-4">Chef Curry</h3>
           <p>Followers: 93k</p>
           <p>Recipes: 3</p>
@@ -301,7 +315,7 @@
         </figure>
       </div>
       <div class="card-content">
-        <div class="content">
+        <div class="content has-text-centered">
           <h3 class="title is-4">Martha Stewart</h3>
           <p>Followers: 69k</p>
           <p>Recipes: 69</p>
@@ -312,16 +326,9 @@
   </div>
 
    
-
-
-
-
-
-
-  <!-- About Us Section -->
   <section class="section">
     <div class="container has-text-centered">
-      <h2 class="title">About Us</h2>
+      <h2 class="title has-text-primary">About Us</h2>
       <p>
         Recipeasy was founded in 2023 by Joshua Arceo and Juan Galvez in Miami, Florida. Our mission is to teach people how to cook a plethora of recipes from all around the world, regardless of age or background. We believe that cooking is an essential life skill that brings people together and allows for creativity and self-expression.
       </p>
@@ -329,11 +336,11 @@
         Our platform is designed as a social-media style recipe database, where users can share their favorite recipes, discover new ones, and connect with a community of passionate home cooks. Whether you're a seasoned chef or just starting out, Recipeasy is here to support you on your culinary journey.
       </p>
     </div>
-  </section>
+  </section> 
 
-    <footer>
+    <footer class="footer">
         <div class="container">
-            <p>&copy; 2023 Recipeasy. All Rights Reserved.</p>
+            <p class="has-text-centered">&copy; 2023 Recipeasy. All Rights Reserved.</p>
         </div>
     </footer>
 
