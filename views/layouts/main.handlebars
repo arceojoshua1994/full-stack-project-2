@@ -1,32 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{pageTitle}} - Recipeasy</title>
-    <link rel="stylesheet" href="/public/css/style.css"> 
+    <title>Recipeasy - Home</title>
+    <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
 </head>
-
 <body>
-    <nav class="navbar">
-        <div class="container">
-            <a class="logo" href="/">Recipeasy</a>
-            <ul class="nav-links">
-                <li><a href="/recipes">Recipes</a></li>
-                <li><a href="/categories">Categories</a></li>
-                <li><a href="/about">About Us</a></li>
-                <li><a href="/contact">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
 
 
-    
-    <footer>
+<header class="header has-border-bottom p-4">
+  <div class="container">
+    <div class="columns is-vcentered">
+  
+      <div class="brandlogo column is-6">
+        
+        <h1 class="title is-1"> Recipeasy <img src="/images/recipeasylogo.jpeg" alt="Logo" class="is-5X5"></h1>
+      </div>
+
+  
+      <div class="column is-6 has-text-right">
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+          <div class="navbar-menu">
+            <div class="navbar-end">
+              <a class="navbar-item has-text-primary" href="/homepage">Home</a>
+              <a class="navbar-item has-text-primary" href="/featured-recipes">Recipes</a>
+              <a class="navbar-item has-text-primary" href="/popular-categories">Categories</a>
+              <a class="navbar-item has-text-primary" href="/about">About Us</a>
+              <a class="navbar-item has-text-primary" href="/profile">Your Profile</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+<main>
+    {{{ body }}}
+</main>
+
+
+    <footer class="footer">
         <div class="container">
-            <p>&copy; 2023 Recipeasy. All Rights Reserved.</p>
+            <p class="has-text-centered">&copy; 2023 Recipeasy. All Rights Reserved.</p>
         </div>
     </footer>
 
