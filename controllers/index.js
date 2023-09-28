@@ -1,17 +1,7 @@
-// routes/index.js
+const router = require('express').Router()
 
-const express = require('express');
-const router = express.Router();
+const mainRoutes = require('./mainRoutes')
+router.use('/', mainRoutes)
 
-// Define routes
-router.get('/', (req, res) => {
-  res.render('index', { pageTitle: 'Home' });
-});
-
-router.get('/about', (req, res) => {
-  res.render('about', { pageTitle: 'About Us' });
-});
-
-// Export the router
-module.exports = router;
+module.exports = router
 
