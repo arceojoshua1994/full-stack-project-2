@@ -1,29 +1,336 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{pageTitle}} - Recipeasy</title>
-    <link rel="stylesheet" href="/public/css/style.css"> 
+    <title>Recipeasy - Home</title>
+    <link rel="stylesheet" href="/public/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
 </head>
-
 <body>
-    <nav class="navbar">
+
+
+<header class="header has-border-bottom p-4">
+  <div class="container">
+    <div class="columns is-vcentered">
+  
+      <div class="column is-6">
+        <h1 class="title is-1">Recipeasy</h1>
+      </div>
+
+  
+      <div class="column is-6 has-text-right">
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+          <div class="navbar-menu">
+            <div class="navbar-end">
+              <a class="navbar-item" href="#">Home</a>
+              <a class="navbar-item" href="#">Recipes</a>
+              <a class="navbar-item" href="#">Categories</a>
+              <a class="navbar-item" href="#">About Us</a>
+              <a class="navbar-item" href="#">Contact</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+    <section>
         <div class="container">
-            <a class="logo" href="/">Recipeasy</a>
-            <ul class="nav-links">
-                <li><a href="/recipes">Recipes</a></li>
-                <li><a href="/categories">Categories</a></li>
-                <li><a href="/about">About Us</a></li>
-                <li><a href="/contact">Contact</a></li>
-            </ul>
+            <p>
+                Welcome to Recipeasy, your go-to platform for discovering and sharing delicious recipes from around the
+                world! Whether you're a seasoned chef or just starting out in the kitchen, Recipeasy is here to make your
+                cooking experience easy, fun, and full of flavor. Log in below to turn your kitchen into a five-star restaurant!
+            </p>
         </div>
-    </nav>
+    </section>
+   
+
+    <section class="section">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-half">
+        <h2 class="title is-2 has-text-centered">Login</h2>
+        <form>
+          <div class="field">
+            <label class="label">Email</label>
+            <div class="control">
+              <input class="input" type="email" placeholder="Email">
+            </div>
+          </div>
+          <div class="field">
+            <label class="label">Password</label>
+            <div class="control">
+              <input class="input" type="password" placeholder="Password">
+            </div>
+          </div>
+          <div class="field">
+            <div class="control has-text-centered">
+              <button class="button is-primary">Login</button>
+            </div>
+          </div>
+        </form>
+        <p class="has-text-centered">
+          Don't have an account? <a href="#" class="has-text-primary">Sign up</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Popular Categories Section -->
+<section class="section">
+  <div class="container">
+    <h2 class="title">Popular Categories</h2>
+    <div class="columns is-multiline">
+      <!-- Category 1: Latin -->
+      <div class="column is-4">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="category1.jpg" alt="Latin">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="content">
+              <h3 class="title is-4">Latin</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Category 2: Asian -->
+      <div class="column is-4">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="category2.jpg" alt="Asian">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="content">
+              <h3 class="title is-4">Asian</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Category 3: Caribbean -->
+      <div class="column is-4">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="category3.jpg" alt="Caribbean">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="content">
+              <h3 class="title is-4">Caribbean</h3>
+            </div>
+          </div>
+        </div>
+      </div>
 
 
-    
+    </div>
+  </div>
+</section>
+
+  <!-- Featured Recipes Section -->
+<section class="section">
+  <div class="container">
+    <h2 class="title">Featured Recipes</h2>
+    <div class="columns is-multiline">
+      <!-- Recipe 1: Carne Asada -->
+      <div class="column is-4">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="/public/images/Carne-Asada-5.jpg" alt="Carne Asada">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="content">
+              <h3 class="title is-4">Carne Asada</h3>
+              <p>Description: Tender and flavorful grilled steak, marinated in a zesty blend of citrus and spices. Perfect for tacos, burritos, or as a main dish with rice and beans.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Recipe 2: Shrimp Pad Thai -->
+      <div class="column is-4">
+        <div class="card">
+            <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="/public/images/Carne-Asada-5.jpg" alt="Carne Asada">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="content">
+              <h3 class="title is-4">Shrimp Pad Thai</h3>
+              <p>Description: A classic Thai dish featuring succulent shrimp, stir-fried with rice noodles, crunchy peanuts, and fresh herbs in a tangy tamarind sauce. A harmonious blend of sweet, sour, and savory flavors.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Recipe 3: Oxtail Stew -->
+      <div class="column is-4">
+        <div class="card">
+            <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="/public/images/Carne-Asada-5.jpg" alt="Carne Asada">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="content">
+              <h3 class="title is-4">Oxtail Stew</h3>
+              <p>Description: Hearty and comforting, this stew features oxtail simmered to tender perfection with aromatic vegetables, herbs, and a rich broth. Served over a bed of rice, it is a soul-warming delight.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Recipe 4: Beef Souvlaki -->
+      <div class="column is-4">
+        <div class="card">
+            <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="/public/images/Carne-Asada-5.jpg" alt="Carne Asada">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="content">
+              <h3 class="title is-4">Beef Souvlaki</h3>
+              <p>Description: A Greek favorite, Beef Souvlaki consists of marinated and skewered beef, grilled to juicy perfection. Served with pita bread, tzatziki sauce, and a medley of fresh veggies.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Recipe 5: Lemon Pepper Chicken Wings -->
+      <div class="column is-4">
+        <div class="card">
+            <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="/public/images/Carne-Asada-5.jpg" alt="Carne Asada">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="content">
+              <h3 class="title is-4">Lemon Pepper Chicken Wings</h3>
+              <p>Description: Crispy chicken wings, seasoned with zesty lemon and aromatic black pepper, then baked to golden perfection. These wings are a crowd-pleaser, perfect for game day or any gathering.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+       <!-- Recipe 6: Grilled Salmon with Dill Sauce -->
+      <div class="column is-4">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="/public/images/Grilled-Salmon-5.jpg" alt="Grilled Salmon with Dill Sauce">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="content">
+              <h3 class="title is-4">Grilled Salmon with Dill Sauce</h3>
+              <p>Description: Succulent salmon fillets, seasoned and grilled to perfection, topped with a creamy dill sauce. This dish is a seafood lover's dream come true!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container">
+    <h2 class="title">Popular Chefs</h2>
+<div class="columns is-multiline">
+  <!-- Chef 1: John Doe -->
+  <div class="column is-4">
+    <div class="card">
+      <div class="card-image">
+        <figure class="image is-4by3">
+          <img src="/public/images/chef1.jpg" alt="John Doe">
+        </figure>
+      </div>
+      <div class="card-content">
+        <div class="content">
+          <h3 class="title is-4">Salt Bae</h3>
+          <p>Followers: 10k</p>
+          <p>Recipes: 50</p>
+          <button class="button is-primary is-fullwidth">Follow</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Chef 2: Jane Smith -->
+  <div class="column is-4">
+    <div class="card">
+      <div class="card-image">
+        <figure class="image is-4by3">
+          <img src="/public/images/chef2.jpg" alt="Jane Smith">
+        </figure>
+      </div>
+      <div class="card-content">
+        <div class="content">
+          <h3 class="title is-4">Chef Curry</h3>
+          <p>Followers: 8k</p>
+          <p>Recipes: 3</p>
+          <button class="button is-primary is-fullwidth">Follow</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Chef 2: Jane Smith -->
+  <div class="column is-4">
+    <div class="card">
+      <div class="card-image">
+        <figure class="image is-4by3">
+          <img src="/public/images/chef2.jpg" alt="Jane Smith">
+        </figure>
+      </div>
+      <div class="card-content">
+        <div class="content">
+          <h3 class="title is-4">Martha Stewart</h3>
+          <p>Followers: 8k</p>
+          <p>Recipes: 69</p>
+          <button class="button is-primary is-fullwidth">Follow</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+   
+
+
+
+
+
+
+  <!-- About Us Section -->
+  <section class="section">
+    <div class="container">
+      <h2 class="title">About Us</h2>
+      <p>
+        Recipeasy was founded in 2023 by Joshua Arceo and Juan Galvez in Miami, Florida. Our mission is to teach people how to cook a plethora of recipes from all around the world, regardless of age or background. We believe that cooking is an essential life skill that brings people together and allows for creativity and self-expression.
+      </p>
+      <p>
+        Our platform is designed as a social-media style recipe database, where users can share their favorite recipes, discover new ones, and connect with a community of passionate home cooks. Whether you're a seasoned chef or just starting out, Recipeasy is here to support you on your culinary journey.
+      </p>
+    </div>
+  </section>
+
     <footer>
         <div class="container">
             <p>&copy; 2023 Recipeasy. All Rights Reserved.</p>
