@@ -1,7 +1,7 @@
 const router = require('express').Router()
 
-const mainRoutes = require('./mainRoutes')
-router.use('/', mainRoutes)
+const projectRoutes = require('./projectRoutes')
+router.use('/', projectRoutes)
 
 module.exports = router
 
