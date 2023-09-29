@@ -1,21 +1,47 @@
-module.exports = function(sequelize, DataTypes) {
-    var recipe = sequelize.define("recipe",
-     {
-      title: DataTypes.STRING,
-      categories: DataTypes.STRING,
-      cooking_time: DataTypes.STRING,
-      ingredients: DataTypes.STRING,
-      servings: DataTypes.INTEGER,
-      createdAt: {
-        type: DataTypes.DATE,
-        defaultValue: new Date()
-      },
-      updatedAt: {
-        type: DataTypes.DATE,
-        defaultValue: new Date()
-      }
-    });
+const { Model, DataTypes } = require('sequelize');
+const sequelize = require('../config/connection');
 
-  
-    return recipe;
-  };
+class Recipe extends Model {}
+
+Recipe.init(
+  {
+    id: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+      primaryKey: true,
+      autoIncrement: true,
+    },
+    name: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
+    description: {
+      type: DataTypes.STRING,
+    },
+    date_created: {
+      type: DataTypes.DATE,
+      allowNull: false,
+      defaultValue: DataTypes.NOW,
+    },
+    needed_funding: {
+      type: DataTypes.FLOAT,
+      allowNull: false,
+    },
+    user_id: {
+      type: DataTypes.INTEGER,
+      references: {
+        model: 'user',
+        key: 'id',
+      },
+    },
+  },
+  {
+    sequelize,
+    timestamps: false,
+    freezeTableName: true,
+    underscored: true,
+    modelName: 'recipe',
+  }
+);
+
+module.exports = Recipe;
