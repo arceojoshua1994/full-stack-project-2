@@ -14,6 +14,7 @@ router.get('/login', (req, res) => {
 
 
 router.get('/popular-categories', (req, res) => {
+  
   res.render('popular-categories');
 });
 
