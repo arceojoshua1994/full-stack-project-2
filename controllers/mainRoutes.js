@@ -30,6 +30,26 @@ router.get('/profile', (req, res) => {
   res.render('profile');
 });
 
+router.get('/', async (req, res) => {
+  res.render('american');
+});
+
+router.get('/', async (req, res) => {
+  res.render('asian');
+});
+
+router.get('/', async (req, res) => {
+  res.render('latin');
+});
+
+router.get('/', async (req, res) => {
+  res.render('caribbean');
+});
+
+router.get('/', async (req, res) => {
+  res.render('home');
+});
+
 
 // app.get('/form', (req, res) => {
 //   res.render('form'); 
