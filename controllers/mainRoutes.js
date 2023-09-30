@@ -30,6 +30,31 @@ router.get('/profile', (req, res) => {
   res.render('profile');
 });
 
+router.get('/american', async (req, res) => {
+  // {{ADD FETCHES HERE}}
+  res.render('american');
+});
+
+router.get('/asian', async (req, res) => {
+  // {{ADD FETCHES HERE}}
+  res.render('asian');
+});
+
+router.get('/latin', async (req, res) => {
+  // {{ADD FETCHES HERE}}
+  res.render('latin');
+});
+
+router.get('/caribbean', async (req, res) => {
+  // {{ADD FETCHES HERE}}
+  res.render('caribbean');
+});
+
+router.get('/mediterranean', async (req, res) => {
+  // {{ADD FETCHES HERE}}
+  res.render('mediterranean');
+});
+
 
 // app.get('/form', (req, res) => {
 //   res.render('form'); 
