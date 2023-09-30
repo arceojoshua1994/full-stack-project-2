@@ -30,24 +30,29 @@ router.get('/profile', (req, res) => {
   res.render('profile');
 });
 
-router.get('/', async (req, res) => {
+router.get('/american', async (req, res) => {
+  // {{ADD FETCHES HERE}}
   res.render('american');
 });
 
-router.get('/', async (req, res) => {
+router.get('/asian', async (req, res) => {
+  // {{ADD FETCHES HERE}}
   res.render('asian');
 });
 
-router.get('/', async (req, res) => {
+router.get('/latin', async (req, res) => {
+  // {{ADD FETCHES HERE}}
   res.render('latin');
 });
 
-router.get('/', async (req, res) => {
+router.get('/caribbean', async (req, res) => {
+  // {{ADD FETCHES HERE}}
   res.render('caribbean');
 });
 
-router.get('/', async (req, res) => {
-  res.render('home');
+router.get('/mediterranean', async (req, res) => {
+  // {{ADD FETCHES HERE}}
+  res.render('mediterranean');
 });
 
 
