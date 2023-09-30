@@ -1,43 +1,54 @@
-$(document).ready(function () {
-    $('ul').hide();
-  
-    // Getting references to our form and inputs
-    var loginForm = $("form.login");
-    var emailInput = $("input#email-input");
-    var passwordInput = $("input#password-input");
-  
-    // validates there is an email and password entered
+const loginFormHandler = async (event) => {
+  event.preventDefault();
 
-    loginForm.on("submit", function (event) {
-      console.log('in click');
-      event.preventDefault();
-      var userData = {
-        email: emailInput.val().trim(),
-        password: passwordInput.val().trim()
-      };
-  
-      if (!userData.email || !userData.password) {
-        return;
-      }
-  
-      // If we have an email and password we run the loginUser function and clear the form
-      loginUser(userData.email, userData.password);
-      emailInput.val("");
-      passwordInput.val("");
+  // Collect values from the login form
+  const email = document.querySelector('#email-login').value.trim();
+  const password = document.querySelector('#password-login').value.trim();
+
+  if (email && password) {
+    // Send a POST request to the API endpoint
+    const response = await fetch('/api/users/login', {
+      method: 'POST',
+      body: JSON.stringify({ email, password }),
+      headers: { 'Content-Type': 'application/json' },
     });
-  
-    // loginUser does a post to our "api/login" route and if successful, redirects us the the members page
-    function loginUser(email, password) {
-      $.post("/api/login", {
-        email: email,
-        password: password
-      })
-        .then(function() {
-          window.location.replace("/home");
-          // If there's an error, log the error
-        })
-        .catch(function(err) {
-          console.log(err);
-        });
+
+    if (response.ok) {
+      // If successful, redirect the browser to the profile page
+      document.location.replace('/profile');
+    } else {
+      alert(response.statusText);
     }
-  });
+  }
+};
+
+const signupFormHandler = async (event) => {
+  event.preventDefault();
+
+  const name = document.querySelector('#name-signup').value.trim();
+  const lastName = document.querySelector('#lastName-signup').value.trim();
+  const email = document.querySelector('#email-signup').value.trim();
+  const password = document.querySelector('#password-signup').value.trim();
+
+  if (name && lastName && email && password) {
+    const response = await fetch('/api/users', {
+      method: 'POST',
+      body: JSON.stringify({ name, lastName, email, password }),
+      headers: { 'Content-Type': 'application/json' },
+    });
+
+    if (response.ok) {
+      document.location.replace('/profile');
+    } else {
+      alert(response.statusText);
+    }
+  }
+};
+
+document
+  .querySelector('.login-form')
+  .addEventListener('submit', loginFormHandler);
+
+document
+  .querySelector('.signup-form')
+  .addEventListener('submit', signupFormHandler);

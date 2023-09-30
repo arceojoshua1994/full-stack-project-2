@@ -1,7 +1,7 @@
-const User = require('./User');
+const User = require('./user');
 const Recipe = require('./recipe');
 
-User.hasMany(Project, {
+User.hasMany(Recipe, {
   foreignKey: 'user_id',
   onDelete: 'CASCADE'
 });
