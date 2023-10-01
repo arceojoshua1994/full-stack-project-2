@@ -1,14 +1,9 @@
 const router = require('express').Router();
 const withAuth = require('../utils/auth');
+const { Recipe, User } = require('../models');
+const path = require('path');
 
-// JG replaced this bellow !!
-
-//router.get('/', async (req, res) => {
- // res.render('home');
-//});
-
-//for this        jg
-
+// jg added //
 router.get('/', async (req, res) => {
   try {
     if (!req.session.logged_in) {
@@ -29,10 +24,41 @@ router.get('/', async (req, res) => {
     res.status(500).json(err);
   }
 });
+// JG replaced this bellow !!
 
-router.get('/homepage', async (req, res) => {
-  res.render('homepage');
+//router.get('/', async (req, res) => {
+ // res.render('home');
+//});
+
+//for this        jg
+router.get('/recipe/:id', async (req, res) => {
+  try {
+    const projectData = await Recipe.findByPk(req.params.id, {
+      include: [
+        {
+          model: User,
+          attributes: ['name'],
+        },
+      ],
+    });
+
+    const recipe = projectData.get({ plain: true });
+
+    res.render('recipe', {
+      ...recipe,
+      logged_in: req.session.logged_in,
+    });
+  } catch (err) {
+    res.status(500).json(err);
+  }
 });
+
+
+ // jg commented out bellow
+
+//router.get('/homepage', async (req, res) => {
+  //res.render('homepage');
+//}); 
 
 //log in  jg
 router.get('/login', (req, res) => {
@@ -59,14 +85,14 @@ router.get('/featured-recipes', (req, res) => {
   res.render('featured-recipes');
 });
 
-//http://localhost:3001/profile    jg
+//profile    jg
 // Use withAuth middleware to prevent access to route
 router.get('/faq', withAuth, async (req, res) => {
   try {
     // Find the logged in user based on the session ID
     const userData = await User.findByPk(req.session.user_id, {
       attributes: { exclude: ['password'] },
-      // include: [{ model: Project }],
+      // include: [{ model: recipe }],
     });
 
     const user = userData.get({ plain: true });
