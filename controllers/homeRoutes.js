@@ -60,7 +60,7 @@ router.get('/recipe/:id', async (req, res) => {
   //res.render('homepage');
 //}); 
 
-//log in  jg
+//log in and signup      jg
 router.get('/login', (req, res) => {
   // If the user is already logged in, redirect the request to another route
   if (req.session.logged_in) {
@@ -69,6 +69,16 @@ router.get('/login', (req, res) => {
   }
 
   res.render('login');
+});
+
+router.get('/signup', (req, res) => {
+  // If the user is already logged in, redirect the request to another route
+  if (req.session.logged_in) {
+    res.redirect('/faq');
+    return;
+  }
+
+  res.render('signup');
 });
 
 
