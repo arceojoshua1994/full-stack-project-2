@@ -1,21 +1,54 @@
 const router = require('express').Router();
+const withAuth = require('../utils/auth');
+
+// JG replaced this bellow !!
+
+//router.get('/', async (req, res) => {
+ // res.render('home');
+//});
+
+//for this        jg
 
 router.get('/', async (req, res) => {
-  res.render('home');
+  try {
+    if (!req.session.logged_in) {
+      res.render('home');
+    } else {
+      const userData = await User.findByPk(req.session.user_id, {
+        attributes: { exclude: ['password'] },
+      });
+
+      const user = userData.get({ plain: true });
+
+      res.render('home', {
+        ...user,
+        logged_in: req.session.logged_in,
+      });
+    }
+  } catch (err) {
+    res.status(500).json(err);
+  }
 });
 
 router.get('/homepage', async (req, res) => {
   res.render('homepage');
 });
 
+//log in  jg
 router.get('/login', (req, res) => {
+  // If the user is already logged in, redirect the request to another route
+  if (req.session.logged_in) {
+    res.redirect('/faq');
+    return;
+  }
+
   res.render('login');
 });
 
 
-router.get('/popular-categories', (req, res) => {
+router.get('/popular-titles', (req, res) => {
   
-  res.render('popular-categories');
+  res.render('popular-titles');
 });
 
 router.get('/about', (req, res) => {
@@ -26,32 +59,50 @@ router.get('/featured-recipes', (req, res) => {
   res.render('featured-recipes');
 });
 
-router.get('/profile', (req, res) => {
-  res.render('profile');
+//http://localhost:3001/profile    jg
+// Use withAuth middleware to prevent access to route
+router.get('/faq', withAuth, async (req, res) => {
+  try {
+    // Find the logged in user based on the session ID
+    const userData = await User.findByPk(req.session.user_id, {
+      attributes: { exclude: ['password'] },
+      // include: [{ model: Project }],
+    });
+
+    const user = userData.get({ plain: true });
+
+    res.render('faq', {
+      ...user,
+      logged_in: true,
+    });
+  } catch (err) {
+    res.status(500).json(err);
+  }
 });
 
+
 router.get('/american', async (req, res) => {
-  // {{ADD FETCHES HERE}}
+  {{title_american}}
   res.render('american');
 });
 
 router.get('/asian', async (req, res) => {
-  // {{ADD FETCHES HERE}}
+   {{title_asian}}
   res.render('asian');
 });
 
 router.get('/latin', async (req, res) => {
-  // {{ADD FETCHES HERE}}
+   {{title_latin}}
   res.render('latin');
 });
 
 router.get('/caribbean', async (req, res) => {
-  // {{ADD FETCHES HERE}}
+   {{title_caribbean}}
   res.render('caribbean');
 });
 
 router.get('/mediterranean', async (req, res) => {
-  // {{ADD FETCHES HERE}}
+   {{title_mediterranean}}
   res.render('mediterranean');
 });
 
@@ -112,10 +163,10 @@ router.get('/mediterranean', async (req, res) => {
 // res.render('featured-recipes');
 // });
 
-//http://localhost:3001/popular-categories
-// router.get('/popular-categories', (req, res) => {   
+//http://localhost:3001/popular-titles
+// router.get('/popular-titles', (req, res) => {   
 //     const data = { 
-//     popularCategories: [
+//     populartitles: [
 //       { name: 'Latin', imageUrl: 'category1.jpg', id: 1 },
 //       { name: 'Asian', imageUrl: 'category2.jpg', id: 2 },
 //       { name: 'Caribbean', imageUrl: 'category3.jpg', id: 3},
@@ -123,7 +174,7 @@ router.get('/mediterranean', async (req, res) => {
 //       { name: 'American', imageUrl: 'category5.jpg', id: 5},
 //     ],
 //   };
-//   res.render('popular-categories', data);
+//   res.render('popular-titles', data);
 // });
 
 //http://localhost:3001/about/
