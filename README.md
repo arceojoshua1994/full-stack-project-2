@@ -1,50 +1,61 @@
-# full-stack-project-2
- 
-   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# Recipeasy App
 
-  ## Description
-  
-  
-  ## Table of Contents
+![Recipeasy Logo](/path/to/logo.png)
+
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Features](#features)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
   - [Installation](#installation)
-  - [Usage](#usage)
-  - [Contribution](#contribution)
-  - [TestVideo](#testVideo)
-  - [Examples](#examples)
-  - [License](#license)
-  - [Questions](#questions)
-  
-  ## Installation
-  <ul>
-<li>1.Clone this repository to your local machine.</li>
-<li>2.Navigate to the project directory.</li>
-<li>3.Run npm install to install the required dependencies</li>
-</ul>
+- [Usage](#usage)
+- [Deployment](#deployment)
+- [Built With](#built-with)
+- [Authors](#authors)
+- [License](#license)
 
-  ## Usage
-  
+---
 
+## Introduction
 
-  ## Contribution
- 
-  
-  ## TestVideo
+Recipeasy is a web application founded in 2023 by Joshua Arceo and Juan Galvez. It aims to teach people how to cook a wide variety of recipes from around the world, regardless of age or background. The platform serves as a social-media style recipe database, allowing users to share their favorite recipes, discover new ones, and connect with a community of passionate home cooks.
 
+## Features
 
+- User-friendly interface for browsing and sharing recipes.
+- Detailed ingredient lists and step-by-step instructions for each recipe.
+- User authentication and profile management.
+- Social features for liking, commenting, and favoriting recipes.
+- Dynamic search and filtering options.
 
+### Prerequisites
 
+Before running the application, make sure you have the following installed:
 
+- Node.js and npm
+- MongoDB
+- (Any other specific prerequisites for your application)
 
-  ## examples
-  
+### Usage
 
+(Provide detailed instructions on how to use the application, including any specific features or functionalities.)
+Deployment
 
-  ## License
-  
-   THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+This application is deployed on Heroku. You can access it at https://recipeasy.herokuapp.com/.
 
-  ## Questions
-  <ul>
-      <li> <a href="https://github.com/"> Github </a>  </li>
-      <li> <a href="mailto:"> Email us </a>  </li>
-  </ul>
+### Built With
+
+Frontend: HTML, CSS, JavaScript, [Any front-end frameworks or libraries used]
+Backend: Node.js, Express.js, MongoDB
+Deployment: Heroku
+
+### Authors
+
+Joshua Arceo - Branding, Frontend
+Juan Galvez - Backend
+
+### License
+
+This project is licensed under the MIT License.
+
