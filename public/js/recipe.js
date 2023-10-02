@@ -78,9 +78,6 @@ $(document).ready(() => {
 
     });
 
-
-
-
     // Load the recipes
     $.ajax({
         method: "GET",
@@ -92,20 +89,6 @@ $(document).ready(() => {
         let categories = recipes.map((recipe) => {
             return recipe.categories;
         });
-        // console.log('Categories: ', categories);
 
-        let uniqueCategories = Array.from(new Set(categories));
-
-        // console.log('uniqueCategories: ', uniqueCategories);
-
-        uniqueCategories.forEach((category) => {
-            let li = $('<li>');
-            let a = $('<a>');
-            a.attr('href', `#`);
-            a.attr('class', 'categoryLink');
-            a.text(category);
-            li.append(a);
-            $('#categories').append(li);
-        });
     });
 });

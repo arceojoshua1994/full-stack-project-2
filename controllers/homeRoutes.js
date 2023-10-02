@@ -4,61 +4,61 @@ const { Recipe, User } = require('../models');
 const path = require('path');
 
 // jg added //
-router.get('/', async (req, res) => {
-  try {
-    if (!req.session.logged_in) {
-      res.render('home');
-    } else {
-      const userData = await User.findByPk(req.session.user_id, {
-        attributes: { exclude: ['password'] },
-      });
+// router.get('/', async (req, res) => {
+//   try {
+//     if (!req.session.logged_in) {
+//       res.render('home');
+//     } else {
+//       const userData = await User.findByPk(req.session.user_id, {
+//         attributes: { exclude: ['password'] },
+//       });
 
-      const user = userData.get({ plain: true });
+//       const user = userData.get({ plain: true });
 
-      res.render('home', {
-        ...user,
-        logged_in: req.session.logged_in,
-      });
-    }
-  } catch (err) {
-    res.status(500).json(err);
-  }
-});
+//       res.render('home', {
+//         ...user,
+//         logged_in: req.session.logged_in,
+//       });
+//     }
+//   } catch (err) {
+//     res.status(500).json(err);
+//   }
+// });
 // JG replaced this bellow !!
 
-//router.get('/', async (req, res) => {
- // res.render('home');
-//});
-
-//for this        jg
-router.get('/recipe/:id', async (req, res) => {
-  try {
-    const projectData = await Recipe.findByPk(req.params.id, {
-      include: [
-        {
-          model: User,
-          attributes: ['name'],
-        },
-      ],
-    });
-
-    const recipe = projectData.get({ plain: true });
-
-    res.render('recipe', {
-      ...recipe,
-      logged_in: req.session.logged_in,
-    });
-  } catch (err) {
-    res.status(500).json(err);
-  }
+router.get('/', async (req, res) => {
+ res.render('home');
 });
+
+// //for this        jg
+// router.get('/recipe/:id', async (req, res) => {
+//   try {
+//     const projectData = await Recipe.findByPk(req.params.id, {
+//       include: [
+//         {
+//           model: User,
+//           attributes: ['name'],
+//         },
+//       ],
+//     });
+
+//     const recipe = projectData.get({ plain: true });
+
+//     res.render('recipe', {
+//       ...recipe,
+//       logged_in: req.session.logged_in,
+//     });
+//   } catch (err) {
+//     res.status(500).json(err);
+//   }
+// });
 
 
  // jg commented out bellow
 
-//router.get('/homepage', async (req, res) => {
-  //res.render('homepage');
-//}); 
+router.get('/homepage', async (req, res) => {
+  res.render('homepage');
+}); 
 
 //log in and signup      jg
 router.get('/login', (req, res) => {
