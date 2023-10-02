@@ -16,43 +16,30 @@
       </div>
    
 
-        <div class="column is-half">
-          <h2 class="title is-3 has-text-centered mb-4 has-text-primary">Login</h2>
-          <form>
-            <div class="field is-horizontal">
-              <div class="field-label is-normal">
-                <label class="label">Email</label>
-              </div>
-              <div class="field-body">
-                <div class="field">
-                  <p class="control is-expanded">
-                    <input class="input" type="email" placeholder="Email">
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="field is-horizontal">
-              <div class="field-label is-normal">
-                <label class="label">Password</label>
-              </div>
-              <div class="field-body">
-                <div class="field">
-                  <p class="control is-expanded">
-                    <input class="input" type="password" placeholder="Password">
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="field">
-              <div class="control has-text-centered">
-                <button class="button is-primary">Login</button>
-              </div>
-            </div>
-          </form>
-          <p class="has-text-centered mt-4">
-            Don't have an account? <a href="#" class="has-text-primary">Sign up</a>
-          </p>
-        </div>
+      <!-- login -->
+      <div class="column is-half">
+        <h2 class="title is-3 has-text-centered mb-4 has-text-primary">Login</h2>
+        <form class="form login-form">
+          <div class="field is-horizontal" class="form-group">
+            <label for="email-login">email</label>
+            <input class="form-input" type="text" id="email-login" />
+          </div>
+          <div class="field-body" class="form-group">
+            <label for="password-login">password:</label>
+            <input class="form-input" type="password" id="password-login" />
+          </div>
       </div>
+      <div class="field is-horizontal" class="form-group">
+        <label for="password-login">password</label>
+        <input class="form-input" type="password" id="password-login" />
+      </div>
+      <div class="form-group">
+        <button class="btn btn-primary" type="submit">login</button>
+      </div>
+      </form>
     </div>
+  </div>
+  </div>
+ 
+<script src="./js/login.js"></script>
   </section>
