@@ -118,28 +118,107 @@ router.get('/faq', withAuth, async (req, res) => {
 
 
 router.get('/american', async (req, res) => {
-  {{title_american}}
-  res.render('american');
+  try {
+      const dbRecipeData = await Recipe.findAll({
+          where: {
+              category: "american"
+          }
+      })
+
+      const recipes = dbRecipeData.map((recipe) =>
+      recipe.get({ plain: true })
+    );
+
+    res.render('american', {
+      recipes
+    });
+  } catch (err) {
+      console.log(err);
+  res.status(500).json(err);
+  }  
 });
 
 router.get('/asian', async (req, res) => {
-   {{title_asian}}
-  res.render('asian');
-});
+  try {
+      const dbRecipeData = await Recipe.findAll({
+          where: {
+              category: "asian"
+          }
+      })
 
+      const recipes = dbRecipeData.map((recipe) =>
+      recipe.get({ plain: true })
+    );
+
+    res.render('asian', {
+      recipes
+    });
+  } catch (err) {
+      console.log(err);
+  res.status(500).json(err);
+  }  
+});
 router.get('/latin', async (req, res) => {
-   {{title_latin}}
-  res.render('latin');
+  try {
+      const dbRecipeData = await Recipe.findAll({
+          where: {
+              category: "latin"
+          }
+      })
+
+      const recipes = dbRecipeData.map((recipe) =>
+      recipe.get({ plain: true })
+    );
+
+    res.render('latin', {
+      recipes
+    });
+  } catch (err) {
+      console.log(err);
+  res.status(500).json(err);
+  }  
 });
 
 router.get('/caribbean', async (req, res) => {
-   {{title_caribbean}}
-  res.render('caribbean');
+  try {
+      const dbRecipeData = await Recipe.findAll({
+          where: {
+              category: "caribbean"
+          }
+      })
+
+      const recipes = dbRecipeData.map((recipe) =>
+      recipe.get({ plain: true })
+    );
+
+    res.render('caribbean', {
+      recipes
+    });
+  } catch (err) {
+      console.log(err);
+  res.status(500).json(err);
+  }  
 });
 
 router.get('/mediterranean', async (req, res) => {
-   {{title_mediterranean}}
-  res.render('mediterranean');
+  try {
+      const dbRecipeData = await Recipe.findAll({
+          where: {
+              category: "mediterranean"
+          }
+      })
+
+      const recipes = dbRecipeData.map((recipe) =>
+      recipe.get({ plain: true })
+    );
+
+    res.render('mediterranean', {
+      recipes
+    });
+  } catch (err) {
+      console.log(err);
+  res.status(500).json(err);
+  }  
 });
 
 
