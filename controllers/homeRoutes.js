@@ -130,7 +130,7 @@ router.get('/american', async (req, res) => {
   try {
       const dbRecipeData = await Recipe.findAll({
           where: {
-              category: "american"
+              categories: "american"
           }
       })
 
