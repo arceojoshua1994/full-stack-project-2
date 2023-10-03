@@ -1,303 +1,303 @@
 [
     {
-      "title_american1": "Blueberry Pie",
-      "categorie_american1": "american",
-      "ingredients_american1":"Pastry for double-crust pie 9 inches 4 cups fresh or frozen blueberries 1 cup sugar 1/4 cup quick-cooking tapioca 1 tablespoon lemon juice 1/4 teaspoon salt 2 tablespoons butter",
-      "servings_american1":"6"
+      "title": "Blueberry Pie",
+      "categories": "american",
+      "ingredients":"Pastry for double-crust pie 9 inches 4 cups fresh or frozen blueberries 1 cup sugar 1/4 cup quick-cooking tapioca 1 tablespoon lemon juice 1/4 teaspoon salt 2 tablespoons butter",
+      "servings":"6"
     },
     {
-        "title_american2": "Texas-Style Beef Brisket",
-        "categorie_american2": "american",
-        "ingredients_american2":" 3 tablespoons Worcestershire sauce, 1 tablespoon chili powder, 2 garlic cloves, minced 1 teaspoon, celery, salt 1 teaspoon, pepper,1 teaspoon liquid smoke, optional,  1 fresh beef brisket (6 pounds),1/2 cup beef broth,2 bay leaves " ,
-        "servings_american2":"12 "
+        "title": "Texas-Style Beef Brisket",
+        "categories": "american",
+        "ingredients":" 3 tablespoons Worcestershire sauce, 1 tablespoon chili powder, 2 garlic cloves, minced 1 teaspoon, celery, salt 1 teaspoon, pepper,1 teaspoon liquid smoke, optional,  1 fresh beef brisket (6 pounds),1/2 cup beef broth,2 bay leaves " ,
+        "servings":"12 "
     },
     {
-        "title_american3": "All-American Banana Split",
-        "categorie_american3":"american",
-        "ingredients_american3":"1 medium banana, peeled and split lengthwise,1 scoop each vanilla, chocolate and strawberry ice cream,2 tablespoons sliced fresh strawberries or 1 tablespoon strawberry ice cream topping,2 tablespoons pineapple chunks, or 1 tablespoon pineapple, ice cream topping",
-        "servings_american3":"1"
+        "title": "All-American Banana Split",
+        "categories":"american",
+        "ingredients":"1 medium banana, peeled and split lengthwise,1 scoop each vanilla, chocolate and strawberry ice cream,2 tablespoons sliced fresh strawberries or 1 tablespoon strawberry ice cream topping,2 tablespoons pineapple chunks, or 1 tablespoon pineapple, ice cream topping",
+        "servings":"1"
     },
     {
-        "title_american4": "Creamy Macaroni and Cheese",
-        "categorie_american4": "american",
-        "ingredients_american4":"2 cups uncooked elbow macaroni,1/2 cup butter, cubed,1/2 cup all-purpose flour,1-1/2 to 2 cups 2% milk,1 cup sour cream,8 ounces cubed Velveeta,1/4 cup grated Parmesan cheese,1/2 teaspoon salt,1/2 teaspoon ground mustard,1/2 teaspoon pepper,2 cups shredded cheddar cheese" ,
-        "servings_american4":"6"
+        "title": "Creamy Macaroni and Cheese",
+        "categories": "american",
+        "ingredients":"2 cups uncooked elbow macaroni,1/2 cup butter, cubed,1/2 cup all-purpose flour,1-1/2 to 2 cups 2% milk,1 cup sour cream,8 ounces cubed Velveeta,1/4 cup grated Parmesan cheese,1/2 teaspoon salt,1/2 teaspoon ground mustard,1/2 teaspoon pepper,2 cups shredded cheddar cheese" ,
+        "servings":"6"
     },
     {
-        "title_american5": "Golden Apple Pie",
-        "categorie_american5": "american",
-        "ingredients_american5":"6 cups sliced peeled Golden Delicious apples,3/4 cup plus 2 tablespoons apple juice, divided,3/4 cup sugar,1 teaspoon ground cinnamon,1/2 teaspoon apple pie spice,2 tablespoons cornstarch,1/4 teaspoon vanilla extract" ,
-        "servings_american65":"8 "
+        "title": "Golden Apple Pie",
+        "categories": "american",
+        "ingredients":"6 cups sliced peeled Golden Delicious apples,3/4 cup plus 2 tablespoons apple juice, divided,3/4 cup sugar,1 teaspoon ground cinnamon,1/2 teaspoon apple pie spice,2 tablespoons cornstarch,1/4 teaspoon vanilla extract" ,
+        "servings":"8 "
     },
     {
-        "title_american6": " Philly Cheesesteak Sandwiches",
-        "categorie_american6": "american",
-        "ingredients_american6":"1 beef top sirloin steak (3 pounds), thinly sliced,2 large onions, cut into 1/2-inch strips,1 can (10-1/2 ounces) condensed French onion soup, undiluted,2 garlic cloves, minced,1 package Italian salad dressing mix ,2 teaspoons beef base ,1/2 teaspoon pepper,2 large red or green peppers, cut into 1/2-inch strips ,1/2 cup pickled pepper rings,8 hoagie buns or French rolls, split,8 slices provolone cheese " ,
-        "servings_american6":"7"
+        "title": " Philly Cheesesteak Sandwiches",
+        "categories": "american",
+        "ingredients":"1 beef top sirloin steak (3 pounds), thinly sliced,2 large onions, cut into 1/2-inch strips,1 can (10-1/2 ounces) condensed French onion soup, undiluted,2 garlic cloves, minced,1 package Italian salad dressing mix ,2 teaspoons beef base ,1/2 teaspoon pepper,2 large red or green peppers, cut into 1/2-inch strips ,1/2 cup pickled pepper rings,8 hoagie buns or French rolls, split,8 slices provolone cheese " ,
+        "servings":"7"
       },
       {
-          "title_american7": "Easy Key Lime Pie",
-          "categorie_american7": "american",
-          "ingredients_american7":"1 package (8 ounces) cream cheese, softened,1 can (14 ounces) sweetened condensed milk,1/2 cup Key lime juice or lime juice,1 graham cracker crust (9 inches),2 cups whipped topping,Lime slices, optional " ,
-          "servings_american7":"10"
+          "title": "Easy Key Lime Pie",
+          "categories": "american",
+          "ingredients":"1 package (8 ounces) cream cheese, softened,1 can (14 ounces) sweetened condensed milk,1/2 cup Key lime juice or lime juice,1 graham cracker crust (9 inches),2 cups whipped topping,Lime slices, optional " ,
+          "servings":"10"
       },
       {
-          "title_american8": "Barbecue Pork Cobb Salad",
-          "categorie_american8": "american",
-          "ingredients_american8":"1-1/4 cups barbecue sauce,1/2 teaspoon garlic powder,1/4 teaspoon paprika,1-1/2 pounds pork tenderloin,12 cups chopped romaine,3 plum tomatoes, chopped,2 avocados, peeled and chopped,2 small carrots, thinly sliced,1 medium sweet red or green pepper, chopped,3 hard-boiled large eggs, chopped,1-1/2 cups shredded cheddar cheese,Salad dressing of your choice" ,
-          "servings_american8":"6 "
+          "title": "Barbecue Pork Cobb Salad",
+          "categories": "american",
+          "ingredients":"1-1/4 cups barbecue sauce,1/2 teaspoon garlic powder,1/4 teaspoon paprika,1-1/2 pounds pork tenderloin,12 cups chopped romaine,3 plum tomatoes, chopped,2 avocados, peeled and chopped,2 small carrots, thinly sliced,1 medium sweet red or green pepper, chopped,3 hard-boiled large eggs, chopped,1-1/2 cups shredded cheddar cheese,Salad dressing of your choice" ,
+          "servings":"6 "
       },
       {
-          "title_american9": "Deep-Fried Cookies",
-          "categorie_american9": "american",
-          "ingredients_american9":"18 Oreo cookies,Oil for deep-fat frying,1 cup biscuit/baking mix,1 large egg,1/2 cup 2% milk,Confectioners' sugar" ,
-          "servings_american9":"18 "
+          "title": "Deep-Fried Cookies",
+          "categories": "american",
+          "ingredients":"18 Oreo cookies,Oil for deep-fat frying,1 cup biscuit/baking mix,1 large egg,1/2 cup 2% milk,Confectioners' sugar" ,
+          "servings":"18 "
       },
       {
-          "title_american10": "Biscuits and Sausage Gravy",
-          "categorie_american10": "american",
-          "ingredients_american10":" 1/4 pound bulk pork sausage,2 tablespoons butter,2 to 3 tablespoons all-purpose flour,1/4 teaspoon salt,1/8 teaspoon pepper,1-1/4 to 1-1/3 cups whole milk,Warm biscuits" ,
-          "servings_american10":"2 "
+          "title": "Biscuits and Sausage Gravy",
+          "categories": "american",
+          "ingredients0":" 1/4 pound bulk pork sausage,2 tablespoons butter,2 to 3 tablespoons all-purpose flour,1/4 teaspoon salt,1/8 teaspoon pepper,1-1/4 to 1-1/3 cups whole milk,Warm biscuits" ,
+          "servings":"2 "
       },
       {
-        "title_latin1": "Teriyaki Steak Quesadillas",
-        "categorie_latin1": "latin",
-        "ingredients_latin1":"1/3 cup soy sauce,1/4 cup mirin,1/4 cup sake,4 cloves garlic,2 tablespoons brown sugar,1 teaspoon grated fresh ginger,1 Thai chili or bird's eye chili pepper,1 pound skirt steak, cut into bite-sized pieces ,1 tablespoon vegetable oil,1 1/2 cups broccoli florets ,8 (10-inch) flour tortillas,1 1/4 cup shredded quesadilla cheese,1/3 cup mini bell pepper " ,
-        "servings_latin1":"8 "
+        "title": "Teriyaki Steak Quesadillas",
+        "categories": "latin",
+        "ingredients":"1/3 cup soy sauce,1/4 cup mirin,1/4 cup sake,4 cloves garlic,2 tablespoons brown sugar,1 teaspoon grated fresh ginger,1 Thai chili or bird's eye chili pepper,1 pound skirt steak, cut into bite-sized pieces ,1 tablespoon vegetable oil,1 1/2 cups broccoli florets ,8 (10-inch) flour tortillas,1 1/4 cup shredded quesadilla cheese,1/3 cup mini bell pepper " ,
+        "servings":"8 "
       },
       {
-          "title_latin2": "Cheesy Taco Soup",
-          "categorie_latin2": "latin",
-          "ingredients_latin2":" 1 pound lean ground beef,1 (1 ounce) packet taco seasoning,1 (15 1/2 ounce) can pinto beans, undrained,1 (24 ounce) jar black bean and corn salsa,3/4 cup prepared salsa con queso dip,1 1/2 cups water" ,
-          "servings_latin2":" 1"
+          "title": "Cheesy Taco Soup",
+          "categories": "latin",
+          "ingredients":" 1 pound lean ground beef,1 (1 ounce) packet taco seasoning,1 (15 1/2 ounce) can pinto beans, undrained,1 (24 ounce) jar black bean and corn salsa,3/4 cup prepared salsa con queso dip,1 1/2 cups water" ,
+          "servings":" 1"
       },
       {
-          "title_latin3": "Rotel Tacos",
-          "categorie_latin3": "latin",
-          "ingredients_latin3":"1 tablespoon olive oil,,1 small onion, finely chopped ,1 lb ground sirloin, 2 tablespoons low sodium Taco seasoning,8 ounces processed American cheese (such as Velveeta®), cut into large chunks,1 (10-ounce) can diced tomatoes with green chiles,8 to 10 crunchy taco shells,shredded iceberg lettuce ,toppings of choice such as diced tomato,hot sauce and sour cream (optional) " ,
-          "servings_latin3":"8 "
+          "title": "Rotel Tacos",
+          "categories": "latin",
+          "ingredients":"1 tablespoon olive oil,,1 small onion, finely chopped ,1 lb ground sirloin, 2 tablespoons low sodium Taco seasoning,8 ounces processed American cheese (such as Velveeta®), cut into large chunks,1 (10-ounce) can diced tomatoes with green chiles,8 to 10 crunchy taco shells,shredded iceberg lettuce ,toppings of choice such as diced tomato,hot sauce and sour cream (optional) " ,
+          "servings":"8 "
       },
       {
-          "title_latin4": "Sweet Potato and Black Bean Taco Cups",
-          "categorie_latin4": "latin",
-          "ingredients_latin4":" 12 (4-inch) flour tortillas,1 tablespoon olive oil,1 cup peeled and chopped sweet potato,1 yellow onion, chopped,1 jalapeño, seeded and minced,3 cloves garlic, minced,1 (15-ounces) can black beans in mild chili sauce, undrained,1/4 teaspoon salt,1/4 teaspoon black pepper,3 ounces shredded queso quesadilla or Mexican-style cheese blend" ,
-          "servings_latin4":"12"
+          "title": "Sweet Potato and Black Bean Taco Cups",
+          "categories": "latin",
+          "ingredients":" 12 (4-inch) flour tortillas,1 tablespoon olive oil,1 cup peeled and chopped sweet potato,1 yellow onion, chopped,1 jalapeño, seeded and minced,3 cloves garlic, minced,1 (15-ounces) can black beans in mild chili sauce, undrained,1/4 teaspoon salt,1/4 teaspoon black pepper,3 ounces shredded queso quesadilla or Mexican-style cheese blend" ,
+          "servings":"12"
       },
       {
-          "title_latin5": "Campfire Queso",
-          "categorie_latin5": "latin",
-          "ingredients_latin5":"8 ounces ground beef,8 ounces bulk Italian sausage,1/2 cup chopped red onion,1/2 cup chopped red bell pepper,1 jalapeno pepper, seeded and minced,1 10-ounce) can can diced tomatoes and green chiles,8 ounces pasteurized cheese product (such as Velveeta®),1 (8-ounce) package cream cheese, softened and cubed,8 ounces shredded Pepper Jack or Monterey Jack cheese,3/4 cup no-salt added canned black beans, rinsed and drained " ,
-          "servings_latin5":"n/a"
+          "title": "Campfire Queso",
+          "categories": "latin",
+          "ingredients":"8 ounces ground beef,8 ounces bulk Italian sausage,1/2 cup chopped red onion,1/2 cup chopped red bell pepper,1 jalapeno pepper, seeded and minced,1 10-ounce) can can diced tomatoes and green chiles,8 ounces pasteurized cheese product (such as Velveeta®),1 (8-ounce) package cream cheese, softened and cubed,8 ounces shredded Pepper Jack or Monterey Jack cheese,3/4 cup no-salt added canned black beans, rinsed and drained " ,
+          "servings":"n/a"
       },
       {
-        "title_latin6": "Fried Egg Tortilla",
-        "categorie_latin6": "latin",
-        "ingredients_latin6":"2 teaspoons butter,1 large egg,1/4 teaspoon taco seasoning, or to taste,1 1/2 ounces shredded Cheddar cheese, divided ,1 (6 to 7-inch) flour tortilla " ,
-        "servings_latin6":"1 "
+        "title": "Fried Egg Tortilla",
+        "categories": "latin",
+        "ingredients":"2 teaspoons butter,1 large egg,1/4 teaspoon taco seasoning, or to taste,1 1/2 ounces shredded Cheddar cheese, divided ,1 (6 to 7-inch) flour tortilla " ,
+        "servings":"1 "
       },
       {
-          "title_latin7": "skillet Shrimp Fajitas with Cilantro-Lime Cream",
-          "categorie_latin7": "latin",
-          "ingredients_latin7":"2 teaspoons chili powder,1/2 teaspoon cayenne pepper,2 teaspoons ground cumi,3/4 teaspoon garlic powder,1/2 teaspoon smoked paprika,1/2 teaspoon Mexican oregano,1/2 teaspoon salt, or to taste,1/4 teaspoon freshly ground black pepper,2 pounds large shrimp, peeled and deveined " ,
-          "servings_latin7":"5 "
+          "title": "skillet Shrimp Fajitas with Cilantro-Lime Cream",
+          "categories": "latin",
+          "ingredients":"2 teaspoons chili powder,1/2 teaspoon cayenne pepper,2 teaspoons ground cumi,3/4 teaspoon garlic powder,1/2 teaspoon smoked paprika,1/2 teaspoon Mexican oregano,1/2 teaspoon salt, or to taste,1/4 teaspoon freshly ground black pepper,2 pounds large shrimp, peeled and deveined " ,
+          "servings":"5 "
       },
       {
-          "title_latin8": "Steak Burrito",
-          "categorie_latin8": "latin",
-          "ingredients_latin8":" 1 (10-inch) flour tortilla,3/4 cup cubed, cooked ribeye steak, warmed,1/4 cup Mexican rice, heated,1/4 cup pinto beans, heated ,1/4 cup shredded Cheddar cheese,1 tablespoon diced onion,1 tablespoon chopped cilantro" ,
-          "servings_latin8":"1"
+          "title": "Steak Burrito",
+          "categories": "latin",
+          "ingredients":" 1 (10-inch) flour tortilla,3/4 cup cubed, cooked ribeye steak, warmed,1/4 cup Mexican rice, heated,1/4 cup pinto beans, heated ,1/4 cup shredded Cheddar cheese,1 tablespoon diced onion,1 tablespoon chopped cilantro" ,
+          "servings":"1"
       },
       {
-          "title_latin9": "Arroz con Leche",
-          "categorie_latin9": "latin",
-          "ingredients_latin9":"water,cinnamon,rice,milk,evaporated milk,sweetned condensed milk " ,
-          "servings_latin9":"6 "
+          "title": "Arroz con Leche",
+          "categories": "latin",
+          "ingredients":"water,cinnamon,rice,milk,evaporated milk,sweetned condensed milk " ,
+          "servings":"6 "
       },
       {
-          "title_latin10": "Empanadas (Beef Turnovers)",
-          "categorie_latin10": "latin",
-          "ingredients_latin10":"1 tablespoon Goya Extra Virgin Olive Oil,½ pound ground beef,½ medium yellow onion, finely chopped,¼ cup Goya Tomato Sauce,6 Goya Spanish Olives Stuffed with Minced Pimientos, thinly sliced,2 tablespoons Goya Sofrito ,1 packet Sazon Goya with Coriander and Annatto,1 teaspoon Goya Minced Garlic,½ teaspoon Goya Dried Oregano,Goya Ground Black Pepper, to taste" ,
-          "servings_latin10":"20 "
+          "title": "Empanadas (Beef Turnovers)",
+          "categories": "latin",
+          "ingredients":"1 tablespoon Goya Extra Virgin Olive Oil,½ pound ground beef,½ medium yellow onion, finely chopped,¼ cup Goya Tomato Sauce,6 Goya Spanish Olives Stuffed with Minced Pimientos, thinly sliced,2 tablespoons Goya Sofrito ,1 packet Sazon Goya with Coriander and Annatto,1 teaspoon Goya Minced Garlic,½ teaspoon Goya Dried Oregano,Goya Ground Black Pepper, to taste" ,
+          "servings":"20 "
       },
       {
-        "title_caribbean1": "Music Near Me",
-        "categorie_caribbean1": "caribbean",
-        "ingredients_caribbean1":" 2 packages (12 ounces each) Hawaiian sweet rolls ,1-1/4 pounds thinly sliced deli ham,9 slices Swiss cheese (about 6 ounces),24 dill pickle slices" ,
-        "servings_caribbean1":"24 "
+        "title": "Music Near Me",
+        "categories": "caribbean",
+        "ingredients":" 2 packages (12 ounces each) Hawaiian sweet rolls ,1-1/4 pounds thinly sliced deli ham,9 slices Swiss cheese (about 6 ounces),24 dill pickle slices" ,
+        "servings":"24 "
       },
       {
-          "title_caribbean2": "Caribbean Chicken",
-          "categorie_caribbean2": "caribbean",
-          "ingredients_caribbean2":"1 tablespoon olive oil,1 pound boneless skinless chicken breasts, cut into 1-inch pieces,2 teaspoons garlic-herb seasoning blend,1 can (14-1/2 ounces) fire-roasted diced tomatoes,1 can (8 ounces) unsweetened pineapple chunks,1/4 cup barbecue sauce,Hot cooked rice " ,
-          "servings_caribbean2":"4 "
+          "title": "Caribbean Chicken",
+          "categories": "caribbean",
+          "ingredients":"1 tablespoon olive oil,1 pound boneless skinless chicken breasts, cut into 1-inch pieces,2 teaspoons garlic-herb seasoning blend,1 can (14-1/2 ounces) fire-roasted diced tomatoes,1 can (8 ounces) unsweetened pineapple chunks,1/4 cup barbecue sauce,Hot cooked rice " ,
+          "servings":"4 "
       },
       {
-          "title_caribbean3": "Caribbean Wontons",
-          "categorie_caribbean3": "caribbean",
-          "ingredients_caribbean3":"4 ounces cream cheese, softened,1/4 cup sweetened shredded coconut,1/4 cup mashed ripe banana,2 tablespoons chopped walnuts,2 tablespoons canned crushed pineapple,1 cup marshmallow creme,24 wonton wrappers" ,
-          "servings_caribbean3":"16 "
+          "title": "Caribbean Wontons",
+          "categories": "caribbean",
+          "ingredients":"4 ounces cream cheese, softened,1/4 cup sweetened shredded coconut,1/4 cup mashed ripe banana,2 tablespoons chopped walnuts,2 tablespoons canned crushed pineapple,1 cup marshmallow creme,24 wonton wrappers" ,
+          "servings":"16 "
       },
       {
-          "title_caribbean4": "Caribbean Potato Soup",
-          "categorie_caribbean4": "caribbean",
-          "ingredients_caribbean4":"2 medium onions, chopped,2 teaspoons canola oil,3 garlic cloves, minced,2 teaspoons minced fresh gingerroot,2 teaspoons ground coriander,1 teaspoon ground turmeric,1/2 teaspoon dried thyme,1/4 teaspoon ground allspice,5 cups vegetable broth,2 cups cubed peeled sweet potato,3 cups chopped fresh kale,1 cup frozen sliced okra,1 cup coconut milk" ,
-          "servings_caribbean4":"6 "
+          "title": "Caribbean Potato Soup",
+          "categories": "caribbean",
+          "ingredients":"2 medium onions, chopped,2 teaspoons canola oil,3 garlic cloves, minced,2 teaspoons minced fresh gingerroot,2 teaspoons ground coriander,1 teaspoon ground turmeric,1/2 teaspoon dried thyme,1/4 teaspoon ground allspice,5 cups vegetable broth,2 cups cubed peeled sweet potato,3 cups chopped fresh kale,1 cup frozen sliced okra,1 cup coconut milk" ,
+          "servings":"6 "
       },
       {
-          "title_caribbean5": "Puerto Rican Chicken",
-          "categorie_caribbean5": "caribbean",
-          "ingredients_caribbean5":" 1 broiler/fryer chicken (about 4 pounds), cut up,1 teaspoon ground cumin,1 teaspoon dried oregano,1 teaspoon garlic powder, divided,1 teaspoon salt, divided,1 teaspoon coarsely ground pepper, divided,1 cup dry bread crumbs,3/4 cup all-purpose flour" ,
-          "servings_caribbean5":"8 "
+          "title": "Puerto Rican Chicken",
+          "categories": "caribbean",
+          "ingredients":" 1 broiler/fryer chicken (about 4 pounds), cut up,1 teaspoon ground cumin,1 teaspoon dried oregano,1 teaspoon garlic powder, divided,1 teaspoon salt, divided,1 teaspoon coarsely ground pepper, divided,1 cup dry bread crumbs,3/4 cup all-purpose flour" ,
+          "servings":"8 "
       },
       {
-        "title_caribbean6": "Roast Beef Caribbean Style",
-        "categorie_caribbean6": "caribbean",
-        "ingredients_caribbean6":" 6 green onions, thinly sliced,1/2 cup lime juice,1/2 cup soy sauce,1/2 cup olive oil,2 to 3 habanero peppers, seeded and finely chopped,2 tablespoons minced fresh gingerroot or 1/2 teaspoon ground ginger,2 tablespoons dark brown sugar,1 tablespoon minced fresh thyme,2 to 3 garlic cloves, minced,2 teaspoons freshly ground pepper,1 teaspoon ground allspice,1 teaspoon ground cinnamon" ,
-        "servings_caribbean6":"10 "
+        "title": "Roast Beef Caribbean Style",
+        "categories": "caribbean",
+        "ingredients":" 6 green onions, thinly sliced,1/2 cup lime juice,1/2 cup soy sauce,1/2 cup olive oil,2 to 3 habanero peppers, seeded and finely chopped,2 tablespoons minced fresh gingerroot or 1/2 teaspoon ground ginger,2 tablespoons dark brown sugar,1 tablespoon minced fresh thyme,2 to 3 garlic cloves, minced,2 teaspoons freshly ground pepper,1 teaspoon ground allspice,1 teaspoon ground cinnamon" ,
+        "servings":"10 "
       },
       {
-          "title_caribbean7": "Jamaican Jerk Pork Chops",
-          "categorie_caribbean7": "caribbean",
-          "ingredients_caribbean7":"3 tablespoons butter, divided,1/4 cup peach preserves,4 boneless thin-cut pork loin chops (2 to 3 ounces each),3 teaspoons Caribbean jerk seasoning,1/2 teaspoon salt,1/4 teaspoon pepper,1/2 medium sweet orange pepper,1/2 medium sweet yellow pepper,1/2 medium sweet red pepper " ,
-          "servings_caribbean7":" 2"
+          "title": "Jamaican Jerk Pork Chops",
+          "categories": "caribbean",
+          "ingredients":"3 tablespoons butter, divided,1/4 cup peach preserves,4 boneless thin-cut pork loin chops (2 to 3 ounces each),3 teaspoons Caribbean jerk seasoning,1/2 teaspoon salt,1/4 teaspoon pepper,1/2 medium sweet orange pepper,1/2 medium sweet yellow pepper,1/2 medium sweet red pepper " ,
+          "servings":" 2"
       },
       {
-          "title_caribbean8": "Easy Cuban Picadillo",
-          "categorie_caribbean8": "caribbean",
-          "ingredients_caribbean8":" 1 pound lean ground beef (90% lean),1 small green pepper, chopped,1/4 cup chopped onion,1 can (8 ounces) tomato sauce,1/2 cup sliced pimiento-stuffed olives,1/4 cup raisins,1 tablespoon cider vinegar,2 cups hot cooked rice" ,
-          "servings_caribbean8":"4 "
+          "title": "Easy Cuban Picadillo",
+          "categories": "caribbean",
+          "ingredients":" 1 pound lean ground beef (90% lean),1 small green pepper, chopped,1/4 cup chopped onion,1 can (8 ounces) tomato sauce,1/2 cup sliced pimiento-stuffed olives,1/4 cup raisins,1 tablespoon cider vinegar,2 cups hot cooked rice" ,
+          "servings":"4 "
       },
       {
-          "title_caribbean9": "Jamaican-Style Beef Stew",
-          "categorie_caribbean9": "caribbean",
-          "ingredients_caribbean9":" 1 tablespoon canola oil,1 tablespoon sugar,1-1/2 pounds beef top sirloin steak, cut into 3/4-inch cubes,5 plum tomatoes, finely chopped,3 large carrots, cut into 1/2-inch slices,3 celery ribs, cut into 1/2-inch slices,4 green onions, chopped,3/4 cup reduced-sodium beef broth,1/4 cup barbecue sauce,1/4 cup reduced-sodium soy sauce,2 tablespoons steak sauce,1 tablespoon garlic powder,1 teaspoon dried thyme,1/4 teaspoon ground allspice,1/4 teaspoon pepper" ,
-          "servings_caribbean9":"5 "
+          "title": "Jamaican-Style Beef Stew",
+          "categories": "caribbean",
+          "ingredients":" 1 tablespoon canola oil,1 tablespoon sugar,1-1/2 pounds beef top sirloin steak, cut into 3/4-inch cubes,5 plum tomatoes, finely chopped,3 large carrots, cut into 1/2-inch slices,3 celery ribs, cut into 1/2-inch slices,4 green onions, chopped,3/4 cup reduced-sodium beef broth,1/4 cup barbecue sauce,1/4 cup reduced-sodium soy sauce,2 tablespoons steak sauce,1 tablespoon garlic powder,1 teaspoon dried thyme,1/4 teaspoon ground allspice,1/4 teaspoon pepper" ,
+          "servings":"5 "
       },
       {
-          "title_caribbean10": "Chicken-Stuffed Cubanelle Peppers",
-          "categorie_caribbean10": "caribbean",
-          "ingredients_caribbean10":"6 Cubanelle peppers or mild banana peppers,2 large eggs, lightly beaten,3 cups shredded cooked chicken breast,1 cup salsa,3/4 cup soft bread crumbs,1/2 cup cooked long grain rice,2 cups meatless pasta sauce " ,
-          "servings_caribbean10":"6 "
+          "title": "Chicken-Stuffed Cubanelle Peppers",
+          "categories": "caribbean",
+          "ingredients":"6 Cubanelle peppers or mild banana peppers,2 large eggs, lightly beaten,3 cups shredded cooked chicken breast,1 cup salsa,3/4 cup soft bread crumbs,1/2 cup cooked long grain rice,2 cups meatless pasta sauce " ,
+          "servings":"6 "
       },
       {
-        "title_asian1": "Gingered Short Ribs with Green Rice",
-        "categorie_asian1": "asian",
-        "ingredients_asian1":"1/2 cup reduced-sodium beef broth,1/3 cup sherry or additional reduced-sodium beef broth,1/4 cup reduced-sodium soy sauce,3 tablespoons honey,1 tablespoon rice vinegar,1 tablespoon minced fresh gingerroot,3 garlic cloves, minced,4 medium carrots, chopped,2 medium onions, chopped,3 pounds bone-in beef short ribs,1/2 teaspoon salt,1/2 teaspoon pepper,3 cups uncooked instant brown rice,3 green onions, thinly sliced,3 tablespoons minced " ,
-        "servings_asian1":"6"
+        "title": "Gingered Short Ribs with Green Rice",
+        "categories": "asian",
+        "ingredients":"1/2 cup reduced-sodium beef broth,1/3 cup sherry or additional reduced-sodium beef broth,1/4 cup reduced-sodium soy sauce,3 tablespoons honey,1 tablespoon rice vinegar,1 tablespoon minced fresh gingerroot,3 garlic cloves, minced,4 medium carrots, chopped,2 medium onions, chopped,3 pounds bone-in beef short ribs,1/2 teaspoon salt,1/2 teaspoon pepper,3 cups uncooked instant brown rice,3 green onions, thinly sliced,3 tablespoons minced " ,
+        "servings":"6"
       },
       {
-          "title_asian2": "Saucy Beef with Broccoli",
-          "categorie_asian2": "asian",
-          "ingredients_asian2":" 1 tablespoon cornstarch,1/2 cup reduced-sodium beef broth,1/4 cup sherry or additional beef broth,2 tablespoons reduced-sodium soy sauce,1 tablespoon brown sugar,1 garlic clove, minced,1 teaspoon minced fresh gingerroot,2 teaspoons canola oil, divided,1/2 pound beef top sirloin steak, cut into 1/4-inch-thick strips" ,
-          "servings_asian2":" 2"
+          "title": "Saucy Beef with Broccoli",
+          "categories": "asian",
+          "ingredients":" 1 tablespoon cornstarch,1/2 cup reduced-sodium beef broth,1/4 cup sherry or additional beef broth,2 tablespoons reduced-sodium soy sauce,1 tablespoon brown sugar,1 garlic clove, minced,1 teaspoon minced fresh gingerroot,2 teaspoons canola oil, divided,1/2 pound beef top sirloin steak, cut into 1/4-inch-thick strips" ,
+          "servings":" 2"
       },
       {
-          "title_asian3": "Larb Gai",
-          "categorie_asian3": "asian",
-          "ingredients_asian3":" 1 pound ground chicken,2 tablespoons canola oil,2 shallots, thinly sliced,2 green or red fresh chiles, seeded and chopped,2 garlic cloves, minced,2 tablespoons lime juice,3 tablespoons fish sauce,1 tablespoon sweet chili sauce,2 teaspoons brown sugar,1 to 2 teaspoons Sriracha chili sauce,1/4 cup fre" ,
-          "servings_asian3":"4 "
+          "title": "Larb Gai",
+          "categories": "asian",
+          "ingredients":" 1 pound ground chicken,2 tablespoons canola oil,2 shallots, thinly sliced,2 green or red fresh chiles, seeded and chopped,2 garlic cloves, minced,2 tablespoons lime juice,3 tablespoons fish sauce,1 tablespoon sweet chili sauce,2 teaspoons brown sugar,1 to 2 teaspoons Sriracha chili sauce,1/4 cup fre" ,
+          "servings":"4 "
       },
       {
-          "title_asian4": "Thai Drunken Noodles with Beef",
-          "categorie_asian4": "asian",
-          "ingredients_asian4":" 1/2 cup soy sauce,1/2 cup water,1/4 cup oyster sauce,3 tablespoons packed dark brown sugar,3 tablespoons fish sauce or soy sauce,1 tablespoon minced fresh gingerroot,6 garlic cloves, minced,1 pound wide rice noodles,1/4 cup grapeseed oil or canola oil, divided,8 ounces boneless beef chuck steak, thinly sliced,1 medium sweet red pepper, julienned,1 large onion, julienned,2 to 4 Thai red chile" ,
-          "servings_asian4":" 6"
+          "title": "Thai Drunken Noodles with Beef",
+          "categories": "asian",
+          "ingredients":" 1/2 cup soy sauce,1/2 cup water,1/4 cup oyster sauce,3 tablespoons packed dark brown sugar,3 tablespoons fish sauce or soy sauce,1 tablespoon minced fresh gingerroot,6 garlic cloves, minced,1 pound wide rice noodles,1/4 cup grapeseed oil or canola oil, divided,8 ounces boneless beef chuck steak, thinly sliced,1 medium sweet red pepper, julienned,1 large onion, julienned,2 to 4 Thai red chile" ,
+          "servings":" 6"
       },
       {
-          "title_asian5": "Mango Lassi",
-          "categorie_asian5": "asian",
-          "ingredients_asian5":" 1 cup fat-free plain yogurt,1 medium mango, peeled and cubed,2 cups ice cubes,3 tablespoons sugar,5 fresh mint leaves,2 crushed cardamom" ,
-          "servings_asian5":"2 "
+          "title": "Mango Lassi",
+          "categories": "asian",
+          "ingredients":" 1 cup fat-free plain yogurt,1 medium mango, peeled and cubed,2 cups ice cubes,3 tablespoons sugar,5 fresh mint leaves,2 crushed cardamom" ,
+          "servings":"2 "
       },
       {
-        "title_asian6": "Chicken Yakitori",
-        "categorie_asian6": "asian",
-        "ingredients_asian6":"1/2 cup mirin (sweet rice wine),1/2 cup sake,1/2 cup soy sauce,1 tablespoon sugar,2 large sweet red peppers, cut into 2-inch pieces,2 pounds boneless skinless chicken thighs, cut into 1-1/2-in. pieces,1 bunch green onions " ,
-        "servings_asian6":"6 "
+        "title": "Chicken Yakitori",
+        "categories": "asian",
+        "ingredients":"1/2 cup mirin (sweet rice wine),1/2 cup sake,1/2 cup soy sauce,1 tablespoon sugar,2 large sweet red peppers, cut into 2-inch pieces,2 pounds boneless skinless chicken thighs, cut into 1-1/2-in. pieces,1 bunch green onions " ,
+        "servings":"6 "
       },
       {
-          "title_asian7": "Pad Thai",
-          "categorie_asian7": "asian",
-          "ingredients_asian7":"4 ounces uncooked thick rice noodles,1/2 pound pork tenderloin, cut into thin strips,2 teaspoons canola oil,2 shallots, thinly sliced,2 garlic cloves, minced,1 large egg, lightly beaten,3 cups coleslaw mix,4 green onions, thinly sliced,1/3 cup rice vinegar,1/4 cup sugar,3 tablespoons reduced-sodium soy sauce,2 tablespoons fish sauce or additional reduced-sodium soy sauce,1 tablespoon chili garlic sauce,1 tablespoon lime juice,2 tablespoons chopped salted peanuts " ,
-          "servings_asian7":" 4"
+          "title": "Pad Thai",
+          "categories": "asian",
+          "ingredients":"4 ounces uncooked thick rice noodles,1/2 pound pork tenderloin, cut into thin strips,2 teaspoons canola oil,2 shallots, thinly sliced,2 garlic cloves, minced,1 large egg, lightly beaten,3 cups coleslaw mix,4 green onions, thinly sliced,1/3 cup rice vinegar,1/4 cup sugar,3 tablespoons reduced-sodium soy sauce,2 tablespoons fish sauce or additional reduced-sodium soy sauce,1 tablespoon chili garlic sauce,1 tablespoon lime juice,2 tablespoons chopped salted peanuts " ,
+          "servings":" 4"
       },
       {
-          "title_asian8": "Korean Pulled Pork Tacos",
-          "categorie_asian8": "asian",
-          "ingredients_asian8":" 1/2 cup reduced-sodium soy sauce,1/2 cup water,3 tablespoons brown sugar,2 tablespoons sesame oil,1 tablespoon baking cocoa,3 teaspoons chili powder,1 garlic clove, minced,1/4 teaspoon ground ginger,1 boneless pork shoulder butt roast (4-5 pounds)" ,
-          "servings_asian8":"10 "
+          "title": "Korean Pulled Pork Tacos",
+          "categories": "asian",
+          "ingredients":" 1/2 cup reduced-sodium soy sauce,1/2 cup water,3 tablespoons brown sugar,2 tablespoons sesame oil,1 tablespoon baking cocoa,3 teaspoons chili powder,1 garlic clove, minced,1/4 teaspoon ground ginger,1 boneless pork shoulder butt roast (4-5 pounds)" ,
+          "servings":"10 "
       },
       {
-          "title_asian9": "Malai Kofta",
-          "categorie_asian9": "asian",
-          "ingredients_asian9":"2 large potatoes, peeled and cubed,8 ounces paneer, crumbled, or 1 cup 4% cottage cheese,1/2 teaspoon ground cardamom,1/2 teaspoon salt,2 tablespoons raisins,2 tablespoons salted cashews,3 large tomatoes, chopped,1/2 cup plain yogurt " ,
-          "servings_asian9":"20 "
+          "title": "Malai Kofta",
+          "categories": "asian",
+          "ingredients":"2 large potatoes, peeled and cubed,8 ounces paneer, crumbled, or 1 cup 4% cottage cheese,1/2 teaspoon ground cardamom,1/2 teaspoon salt,2 tablespoons raisins,2 tablespoons salted cashews,3 large tomatoes, chopped,1/2 cup plain yogurt " ,
+          "servings":"20 "
       },
       {
-          "title_asian10": "Music Near Me",
-          "categorie_asian10": "asian",
-          "ingredients_asian10":"6 ounces dried Japanese udon noodles or fettuccine,1 small bunch bok choy, coarsely chopped,1 pork tenderloin (1 pound), cut into 1/4-inch slices,6 cups reduced-sodium chicken broth,3 tablespoons reduced-sodium soy sauce,4 teaspoons minced fresh gingerroot,3 garlic cloves, minced " ,
-          "servings_asian10":" 6"
+          "title": "Music Near Me",
+          "categories": "asian",
+          "ingredients0":"6 ounces dried Japanese udon noodles or fettuccine,1 small bunch bok choy, coarsely chopped,1 pork tenderloin (1 pound), cut into 1/4-inch slices,6 cups reduced-sodium chicken broth,3 tablespoons reduced-sodium soy sauce,4 teaspoons minced fresh gingerroot,3 garlic cloves, minced " ,
+          "servings":" 6"
       },
       {
-        "title_mediterranean1": "Larb Gai",
-        "categorie_mediterranean1": "asian",
-        "ingredients_mediterranean1":" 1 pound ground chicken,2 tablespoons canola oil,2 shallots, thinly sliced,2 green or red fresh chiles, seeded and chopped,2 garlic cloves, minced,2 tablespoons lime juice,3 tablespoons fish sauce,1 tablespoon sweet chili sauce,2 teaspoons brown sugar,1 to 2 teaspoons Sriracha chili sauce,1/4 cup fre" ,
-        "servings_mediterranean1":"4 "
+        "title": "Larb Gai",
+        "categories": "asian",
+        "ingredients":" 1 pound ground chicken,2 tablespoons canola oil,2 shallots, thinly sliced,2 green or red fresh chiles, seeded and chopped,2 garlic cloves, minced,2 tablespoons lime juice,3 tablespoons fish sauce,1 tablespoon sweet chili sauce,2 teaspoons brown sugar,1 to 2 teaspoons Sriracha chili sauce,1/4 cup fre" ,
+        "servings":"4 "
     },
     {
-        "title_mediterranean2": "Thai Drunken Noodles with Beef",
-        "categorie_mediterranean2": "asian",
-        "ingredients_mediterranean2":" 1/2 cup soy sauce,1/2 cup water,1/4 cup oyster sauce,3 tablespoons packed dark brown sugar,3 tablespoons fish sauce or soy sauce,1 tablespoon minced fresh gingerroot,6 garlic cloves, minced,1 pound wide rice noodles,1/4 cup grapeseed oil or canola oil, divided,8 ounces boneless beef chuck steak, thinly sliced,1 medium sweet red pepper, julienned,1 large onion, julienned,2 to 4 Thai red chile" ,
-        "servings_mediterranean2":" 6"
+        "title": "Thai Drunken Noodles with Beef",
+        "categories": "asian",
+        "ingredients":" 1/2 cup soy sauce,1/2 cup water,1/4 cup oyster sauce,3 tablespoons packed dark brown sugar,3 tablespoons fish sauce or soy sauce,1 tablespoon minced fresh gingerroot,6 garlic cloves, minced,1 pound wide rice noodles,1/4 cup grapeseed oil or canola oil, divided,8 ounces boneless beef chuck steak, thinly sliced,1 medium sweet red pepper, julienned,1 large onion, julienned,2 to 4 Thai red chile" ,
+        "servings":" 6"
     },
     {
-        "title_mediterranean3": "Mango Lassi",
-        "categorie_mediterranean3": "asian",
-        "ingredients_mediterranean3":" 1 cup fat-free plain yogurt,1 medium mango, peeled and cubed,2 cups ice cubes,3 tablespoons sugar,5 fresh mint leaves,2 crushed cardamom" ,
-        "servings_mediterranean3":"2 "
+        "title": "Mango Lassi",
+        "categories": "asian",
+        "ingredients":" 1 cup fat-free plain yogurt,1 medium mango, peeled and cubed,2 cups ice cubes,3 tablespoons sugar,5 fresh mint leaves,2 crushed cardamom" ,
+        "servings":"2 "
     },
     {
-      "title_mediterranean4": "Chicken Yakitori",
-      "categorie_mediterranean4": "asian",
-      "ingredients_mediterranean4":"1/2 cup mirin (sweet rice wine),1/2 cup sake,1/2 cup soy sauce,1 tablespoon sugar,2 large sweet red peppers, cut into 2-inch pieces,2 pounds boneless skinless chicken thighs, cut into 1-1/2-in. pieces,1 bunch green onions " ,
-      "servings_mediterranean4":"6 "
+      "title": "Chicken Yakitori",
+      "categories": "asian",
+      "ingredients":"1/2 cup mirin (sweet rice wine),1/2 cup sake,1/2 cup soy sauce,1 tablespoon sugar,2 large sweet red peppers, cut into 2-inch pieces,2 pounds boneless skinless chicken thighs, cut into 1-1/2-in. pieces,1 bunch green onions " ,
+      "servings":"6 "
     },
     {
-        "title_mediterranean5": "Pad Thai",
-        "categorie_mediterranean5": "asian",
-        "ingredients_mediterranean5":"4 ounces uncooked thick rice noodles,1/2 pound pork tenderloin, cut into thin strips,2 teaspoons canola oil,2 shallots, thinly sliced,2 garlic cloves, minced,1 large egg, lightly beaten,3 cups coleslaw mix,4 green onions, thinly sliced,1/3 cup rice vinegar,1/4 cup sugar,3 tablespoons reduced-sodium soy sauce,2 tablespoons fish sauce or additional reduced-sodium soy sauce,1 tablespoon chili garlic sauce,1 tablespoon lime juice,2 tablespoons chopped salted peanuts " ,
-        "servings_mediterranean5":" 4"
+        "title": "Pad Thai",
+        "categories": "asian",
+        "ingredients":"4 ounces uncooked thick rice noodles,1/2 pound pork tenderloin, cut into thin strips,2 teaspoons canola oil,2 shallots, thinly sliced,2 garlic cloves, minced,1 large egg, lightly beaten,3 cups coleslaw mix,4 green onions, thinly sliced,1/3 cup rice vinegar,1/4 cup sugar,3 tablespoons reduced-sodium soy sauce,2 tablespoons fish sauce or additional reduced-sodium soy sauce,1 tablespoon chili garlic sauce,1 tablespoon lime juice,2 tablespoons chopped salted peanuts " ,
+        "servings":" 4"
     },
     {
-        "title_mediterranean6": "Korean Pulled Pork Tacos",
-        "categorie_mediterranean6": "asian",
-        "ingredients_mediterranean6":" 1/2 cup reduced-sodium soy sauce,1/2 cup water,3 tablespoons brown sugar,2 tablespoons sesame oil,1 tablespoon baking cocoa,3 teaspoons chili powder,1 garlic clove, minced,1/4 teaspoon ground ginger,1 boneless pork shoulder butt roast (4-5 pounds)" ,
-        "servings_mediterranean6":"10 "
+        "title": "Korean Pulled Pork Tacos",
+        "categories": "asian",
+        "ingredients":" 1/2 cup reduced-sodium soy sauce,1/2 cup water,3 tablespoons brown sugar,2 tablespoons sesame oil,1 tablespoon baking cocoa,3 teaspoons chili powder,1 garlic clove, minced,1/4 teaspoon ground ginger,1 boneless pork shoulder butt roast (4-5 pounds)" ,
+        "servings":"10 "
     },
     {
-        "title_mediterranean7": "Malai Kofta",
-        "categorie_mediterranean": "asian",
-        "ingredients_mediterranean7":"2 large potatoes, peeled and cubed,8 ounces paneer, crumbled, or 1 cup 4% cottage cheese,1/2 teaspoon ground cardamom,1/2 teaspoon salt,2 tablespoons raisins,2 tablespoons salted cashews,3 large tomatoes, chopped,1/2 cup plain yogurt " ,
-        "servings_mediterranean7":"20 "
+        "title": "Malai Kofta",
+        "categories": "asian",
+        "ingredients":"2 large potatoes, peeled and cubed,8 ounces paneer, crumbled, or 1 cup 4% cottage cheese,1/2 teaspoon ground cardamom,1/2 teaspoon salt,2 tablespoons raisins,2 tablespoons salted cashews,3 large tomatoes, chopped,1/2 cup plain yogurt " ,
+        "servings":"20 "
     },
     {
-        "title_mediterranean8": "Music Near Me",
-        "categorie_mediterranean8": "asian",
-        "ingredients_mediterranean8":"6 ounces dried Japanese udon noodles or fettuccine,1 small bunch bok choy, coarsely chopped,1 pork tenderloin (1 pound), cut into 1/4-inch slices,6 cups reduced-sodium chicken broth,3 tablespoons reduced-sodium soy sauce,4 teaspoons minced fresh gingerroot,3 garlic cloves, minced " ,
-        "servings_mediterranean8":" 6"
+        "title": "Music Near Me",
+        "categories": "asian",
+        "ingredients":"6 ounces dried Japanese udon noodles or fettuccine,1 small bunch bok choy, coarsely chopped,1 pork tenderloin (1 pound), cut into 1/4-inch slices,6 cups reduced-sodium chicken broth,3 tablespoons reduced-sodium soy sauce,4 teaspoons minced fresh gingerroot,3 garlic cloves, minced " ,
+        "servings":" 6"
     },
     {
-        "title_mediterranean9": "Larb Gai",
-        "categorie_mediterranean9": "asian",
-        "ingredients_mediterranean9":" 1 pound ground chicken,2 tablespoons canola oil,2 shallots, thinly sliced,2 green or red fresh chiles, seeded and chopped,2 garlic cloves, minced,2 tablespoons lime juice,3 tablespoons fish sauce,1 tablespoon sweet chili sauce,2 teaspoons brown sugar,1 to 2 teaspoons Sriracha chili sauce,1/4 cup fre" ,
-        "servings_mediterranean9":"4 "
+        "title": "Larb Gai",
+        "categories": "asian",
+        "ingredients":" 1 pound ground chicken,2 tablespoons canola oil,2 shallots, thinly sliced,2 green or red fresh chiles, seeded and chopped,2 garlic cloves, minced,2 tablespoons lime juice,3 tablespoons fish sauce,1 tablespoon sweet chili sauce,2 teaspoons brown sugar,1 to 2 teaspoons Sriracha chili sauce,1/4 cup fre" ,
+        "servings":"4 "
     },
     {
-        "title_mediterranean10": "Thai Drunken Noodles with Beef",
-        "categorie_mediterranean10": "asian",
-        "ingredients_mediterranean10":" 1/2 cup soy sauce,1/2 cup water,1/4 cup oyster sauce,3 tablespoons packed dark brown sugar,3 tablespoons fish sauce or soy sauce,1 tablespoon minced fresh gingerroot,6 garlic cloves, minced,1 pound wide rice noodles,1/4 cup grapeseed oil or canola oil, divided,8 ounces boneless beef chuck steak, thinly sliced,1 medium sweet red pepper, julienned,1 large onion, julienned,2 to 4 Thai red chile" ,
-        "servings_mediterranean10":" 6"
+        "title": "Thai Drunken Noodles with Beef",
+        "categories": "asian",
+        "ingredients":" 1/2 cup soy sauce,1/2 cup water,1/4 cup oyster sauce,3 tablespoons packed dark brown sugar,3 tablespoons fish sauce or soy sauce,1 tablespoon minced fresh gingerroot,6 garlic cloves, minced,1 pound wide rice noodles,1/4 cup grapeseed oil or canola oil, divided,8 ounces boneless beef chuck steak, thinly sliced,1 medium sweet red pepper, julienned,1 large onion, julienned,2 to 4 Thai red chile" ,
+        "servings":" 6"
     }
 
   ]
