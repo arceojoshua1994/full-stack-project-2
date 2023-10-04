@@ -1,6 +1,5 @@
-# Recipeasy App
+# Recipeasy 
 
-![Recipeasy Logo](/path/to/logo.png)
 
 ## Table of Contents
 
@@ -27,15 +26,15 @@ Recipeasy is a web application founded in 2023 by Joshua Arceo and Juan Galvez. 
 - Detailed ingredient lists and step-by-step instructions for each recipe.
 - User authentication and profile management.
 - Social features for liking, commenting, and favoriting recipes.
-- Dynamic search and filtering options.
+
 
 ### Prerequisites
 
 Before running the application, make sure you have the following installed:
 
 - Node.js and npm
-- MongoDB
-- (Any other specific prerequisites for your application)
+- Express
+- Handlebars
 
 ### Usage
 
@@ -46,13 +45,14 @@ This application is deployed on Heroku. You can access it at https://recipeasy.h
 
 ### Built With
 
-Frontend: HTML, CSS, JavaScript, [Any front-end frameworks or libraries used]
-Backend: Node.js, Express.js, MongoDB
+Frontend: Handlebars, CSS 
+Backend: Node.js, Express.js
 Deployment: Heroku
 
 ### Authors
 
 Joshua Arceo - Branding, Frontend
+
 Juan Galvez - Backend
 
 ### License
