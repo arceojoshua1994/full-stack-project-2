@@ -38,9 +38,6 @@ Before running the application, make sure you have the following installed:
 
 ### Usage
 
-(Provide detailed instructions on how to use the application, including any specific features or functionalities.)
-Deployment
-
 This application is deployed on Heroku. You can access it at https://recipeasy.herokuapp.com/.
 
 ### Built With
