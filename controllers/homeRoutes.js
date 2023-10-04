@@ -151,7 +151,7 @@ router.get('/asian', async (req, res) => {
   try {
       const dbRecipeData = await Recipe.findAll({
           where: {
-              category: "asian"
+              categories: "asian"
           }
       })
 
@@ -171,7 +171,7 @@ router.get('/latin', async (req, res) => {
   try {
       const dbRecipeData = await Recipe.findAll({
           where: {
-              category: "latin"
+              categories: "latin"
           }
       })
 
@@ -192,7 +192,7 @@ router.get('/caribbean', async (req, res) => {
   try {
       const dbRecipeData = await Recipe.findAll({
           where: {
-              category: "caribbean"
+              categories: "caribbean"
           }
       })
 
@@ -213,7 +213,7 @@ router.get('/mediterranean', async (req, res) => {
   try {
       const dbRecipeData = await Recipe.findAll({
           where: {
-              category: "mediterranean"
+              categories: "mediterranean"
           }
       })
 
